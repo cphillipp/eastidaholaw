@@ -210,9 +210,23 @@ body {
     body footer .wrapper {
       padding: 35px 0;
       width: 916px; }
+      body footer .wrapper .twitter {
+        margin: 0 0 0 20px;
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: right;
+        background: url("../images/twitter.png"); }
+      body footer .wrapper .facebook {
+        margin: 0;
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: right;
+        background: url("../images/facebook.png"); }
       body footer .wrapper ol {
         padding: 0 0 20px;
-        width: 30%;
+        width: 28%;
         color: #A8B189;
         float: left; }
         body footer .wrapper ol li {

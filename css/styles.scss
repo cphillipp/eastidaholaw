@@ -72,7 +72,9 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   }
   footer                    {padding:0; width:100%;
     .wrapper                {padding:35px 0; width:916px;
-      ol                    {padding:0 0 20px; width:30%; color:#A8B189; float:left;
+      .twitter              {margin:0 0 0 20px; width:32px; height:32px; display:block; float:right; background:url('../images/twitter.png');}
+      .facebook             {margin:0; width:32px; height:32px; display:block; float:right; background:url('../images/facebook.png');}
+      ol                    {padding:0 0 20px; width:28%; color:#A8B189; float:left;
         li                  {list-style:none;
           span              {color:#575648; font:17px 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
         }
