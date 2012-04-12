@@ -5,7 +5,7 @@ fieldset, form, figcaption, figure, footer, header, hgroup, nav, section {
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 62.5%;
+  font-size: 100%;
   line-height: 1.125em;
   font: inherit;
   vertical-align: baseline; }
@@ -17,6 +17,8 @@ figcaption, figure, footer, header, hgroup, nav, section {
 body {
   background: #25241B;
   font-family: 'Abel', arial, sans; }
+  body a {
+    color: #8BA729; }
   body .wrapper {
     margin: 0 auto;
     width: 996px;
@@ -33,12 +35,12 @@ body {
         height: 85px;
         display: block;
         text-indent: -100%;
-        font-size: 0em;
-        line-height: 0em;
+        font-size: 0px;
+        line-height: 0px;
         background: url("../images/logo.png"); }
     body header .info {
       color: #333225;
-      font-size: .8em;
+      font-size: 12px;
       position: absolute;
       top: 0px;
       right: 0px; }
@@ -53,7 +55,7 @@ body {
           color: #FFFFFF;
           text-transform: uppercase;
           text-decoration: none;
-          font: 1.5em 'Forum', serif;
+          font: 22px 'Forum', serif;
           letter-spacing: 2px;
           text-shadow: 1px 1px 0px #616051; }
           body header ul li a:hover {
@@ -159,7 +161,7 @@ body {
         padding: 0 0 20px;
         color: #333225;
         text-transform: uppercase;
-        font: 1.6em 'Forum', serif;
+        font: 26px 'Forum', serif;
         letter-spacing: 2px; }
       body .content .wrapper ul {
         list-style: none; }
@@ -168,7 +170,7 @@ body {
           line-height: 1.3em;
           background: url(../images/marker-1.png) 1px 5px no-repeat; }
           body .content .wrapper ul li a {
-            font-size: 1em;
+            font-size: 16px;
             color: #333225;
             text-decoration: none; }
             body .content .wrapper ul li a:hover {
@@ -187,15 +189,15 @@ body {
           padding: 0 0 10px;
           color: #fff;
           text-transform: uppercase;
-          font: 1.3em 'Forum', serif;
+          font: 21px 'Forum', serif;
           letter-spacing: 2px; }
         body .outer .wrapper .col p {
           padding: 0 0 5px;
           color: #A8B189;
-          font-size: .8em; }
+          font-size: 13px; }
         body .outer .wrapper .col a {
           color: #fff;
-          font-size: 1.1em;
+          font-size: 18px;
           font-style: italic;
           text-decoration: none; }
           body .outer .wrapper .col a:hover {
@@ -208,15 +210,14 @@ body {
       width: 916px; }
       body footer .wrapper ol {
         padding: 0 0 20px;
-        width: 33%;
+        width: 30%;
         color: #A8B189;
-        font-size: .8em;
         float: left; }
         body footer .wrapper ol li {
           list-style: none; }
           body footer .wrapper ol li span {
             color: #575648;
-            font: 1.3em 'Forum', serif;
+            font: 17px 'Forum', serif;
             letter-spacing: 2px;
             text-transform: uppercase; }
       body footer .wrapper ul {
@@ -232,11 +233,11 @@ body {
             border: none; }
           body footer .wrapper ul li a {
             color: #8BA729;
-            font-size: .8em;
+            font-size: 13px;
             text-decoration: none; }
             body footer .wrapper ul li a:hover {
               color: #575648; }
       body footer .wrapper p {
         color: #575648;
-        font-size: .8em;
+        font-size: 13px;
         float: right; }

@@ -1,19 +1,20 @@
 /* RESET */
 html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,abbr,img,strong,ul,li,
-fieldset,form,figcaption,figure,footer,header,hgroup,nav,section{margin:0; padding:0; border:0; outline:0; font-size:62.5%; line-height:1.125em; font:inherit; vertical-align:baseline;}
+fieldset,form,figcaption,figure,footer,header,hgroup,nav,section{margin:0; padding:0; border:0; outline:0; font-size:100%; line-height:1.125em; font:inherit; vertical-align:baseline;}
 figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 
 /* BASE */
 body                        {background:#25241B; font-family:'Abel', arial, sans;
+  a                         {color:#8BA729;}
   .wrapper                  {margin:0 auto; width:996px; overflow:hidden; position:relative;}
   header                    {padding:50px 0 0; width:100%; background:url('../images/header-tail.gif') repeat-x;
     h1                      {float:left;
-      a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0em; line-height:0em; background:url('../images/logo.png');}
+      a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
     }
-    .info                   {color:#333225; font-size:.8em; position:absolute; top:0px; right:0px;}              
+    .info                   {color:#333225; font-size:12px; position:absolute; top:0px; right:0px;}              
     ul                      {padding:60px 0 30px; float:right; list-style:none;
       li                    {padding:0 0 0 20px; float:left;
-        a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:1.5em 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051;
+        a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:22px 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051;
           &:hover           {color:#A2C429;}
           &.active          {color:#A2C429;}
         }
@@ -49,10 +50,10 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           ul                {float:left; padding:0 20px 0 0;}
         }
       }
-      h2                    {padding:0 0 20px; color:#333225; text-transform:uppercase; font:1.6em 'Forum', serif; letter-spacing:2px;}
+      h2                    {padding:0 0 20px; color:#333225; text-transform:uppercase; font:26px 'Forum', serif; letter-spacing:2px;}
       ul                    {list-style:none;
         li                  {padding:0 0 8px 24px; line-height:1.3em; background:url(../images/marker-1.png) 1px 5px no-repeat;
-          a                 {font-size:1em; color:#333225; text-decoration:none;
+          a                 {font-size:16px; color:#333225; text-decoration:none;
             &:hover         {color:#99a721;}
           }
         }
@@ -62,9 +63,9 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   .outer                    {width:100%; background:url('../images/content-tail.gif') repeat;
     .wrapper                {padding:30px 0; width:916px;
       .col                  {padding:0 19px 0 0; width:22.9%; float:left;
-        h3                  {padding:0 0 10px; color:#fff; text-transform:uppercase; font:1.3em 'Forum', serif; letter-spacing:2px;}
-        p                   {padding:0 0 5px; color:#A8B189; font-size:.8em;}
-        a                   {color:#fff; font-size:1.1em; font-style:italic; text-decoration:none;
+        h3                  {padding:0 0 10px; color:#fff; text-transform:uppercase; font:21px 'Forum', serif; letter-spacing:2px;}
+        p                   {padding:0 0 5px; color:#A8B189; font-size:13px;}
+        a                   {color:#fff; font-size:18px; font-style:italic; text-decoration:none;
           &:hover           {color:#A2C429;}
         }
       }
@@ -72,20 +73,20 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   }
   footer                    {padding:0; width:100%;
     .wrapper                {padding:35px 0; width:916px;
-      ol                    {padding:0 0 20px; width:33%; color:#A8B189; font-size:.8em; float:left;
+      ol                    {padding:0 0 20px; width:30%; color:#A8B189; float:left;
         li                  {list-style:none;
-          span              {color:#575648; font:1.3em 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
+          span              {color:#575648; font:17px 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
         }
       }
       ul                    {float:left; clear:both; list-style:none;
         li                  {padding:0 10px; float:left; border-left:1px solid #575648;
           &.first           {padding-left:0; border:none;}
-          a                 {color:#8BA729; font-size:.8em; text-decoration:none;
+          a                 {color:#8BA729; font-size:13px; text-decoration:none;
             &:hover         {color:#575648;}
           }
         }
       }
-      p                     {color:#575648; font-size:.8em; float:right;}
+      p                     {color:#575648; font-size:13px; float:right;}
     }
   }
 }
