@@ -33,6 +33,8 @@ body {
         height: 85px;
         display: block;
         text-indent: -100%;
+        font-size: 0em;
+        line-height: 0em;
         background: url("../images/logo.png"); }
     body header .info {
       color: #333225;
@@ -50,7 +52,8 @@ body {
           color: #FFFFFF;
           text-transform: uppercase;
           text-decoration: none;
-          font: 1.6em 'Forum', serif;
+          font: 1.5em 'Forum', serif;
+          letter-spacing: 2px;
           text-shadow: 1px 1px 0px #616051; }
           body header ul li a:hover {
             color: #A2C429; }
@@ -155,7 +158,8 @@ body {
         padding: 0 0 20px;
         color: #333225;
         text-transform: uppercase;
-        font: 1.6em 'Forum', serif; }
+        font: 1.6em 'Forum', serif;
+        letter-spacing: 2px; }
       body .content .wrapper ul {
         list-style: none; }
         body .content .wrapper ul li {
@@ -176,13 +180,14 @@ body {
       width: 916px; }
       body .outer .wrapper .col {
         padding: 0 19px 0 0;
-        width: 23%;
+        width: 22.9%;
         float: left; }
         body .outer .wrapper .col h3 {
           padding: 0 0 10px;
           color: #fff;
           text-transform: uppercase;
-          font: 1.3em 'Forum', serif; }
+          font: 1.3em 'Forum', serif;
+          letter-spacing: 2px; }
         body .outer .wrapper .col p {
           padding: 0 0 5px;
           color: #A8B189;
@@ -200,17 +205,22 @@ body {
     body footer .wrapper {
       padding: 35px 0;
       width: 916px; }
-      body footer .wrapper h4 {
+      body footer .wrapper ol {
         padding: 0 0 20px;
-        display: inline-block;
         width: 33%;
-        color: #fff;
-        text-transform: uppercase;
-        font: 1em 'Forum', serif; }
-        body footer .wrapper h4 span {
-          color: #575648; }
-      body footer .wrapper ul {
+        color: #A8B189;
+        font-size: .8em;
         float: left; }
+        body footer .wrapper ol li {
+          list-style: none; }
+          body footer .wrapper ol li span {
+            color: #575648;
+            font: 1.3em 'Forum', serif;
+            letter-spacing: 2px;
+            text-transform: uppercase; }
+      body footer .wrapper ul {
+        float: left;
+        clear: both; }
         body footer .wrapper ul li {
           padding: 0 10px;
           display: inline-block;

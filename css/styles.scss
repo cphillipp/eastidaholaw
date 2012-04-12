@@ -8,12 +8,12 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   .wrapper                  {margin:0 auto; width:996px; overflow:hidden; position:relative;}
   header                    {padding:50px 0 0; width:100%; background:url('../images/header-tail.gif') repeat-x;
     h1                      {float:left;
-      a                     {width:250px; height:85px; display:block; text-indent:-100%; background:url('../images/logo.png');}
+      a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0em; line-height:0em; background:url('../images/logo.png');}
     }
     .info                   {color:#333225; font-size:.8em; position:absolute; top:0px; right:0px;}              
     ul                      {padding:60px 0 30px; float:right;
       li                    {padding:0 0 0 20px; display:inline-block;
-        a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:1.6em 'Forum', serif; text-shadow: 1px 1px 0px #616051;
+        a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:1.5em 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051;
           &:hover           {color:#A2C429;}
           &.active          {color:#A2C429;}
         }
@@ -49,7 +49,7 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           ul                {float:left; padding:0 20px 0 0;}
         }
       }
-      h2                    {padding:0 0 20px; color:#333225; text-transform:uppercase; font:1.6em 'Forum', serif;}
+      h2                    {padding:0 0 20px; color:#333225; text-transform:uppercase; font:1.6em 'Forum', serif; letter-spacing:2px;}
       ul                    {list-style:none;
         li                  {padding:0 0 8px 24px; line-height:1.3em; background:url(../images/marker-1.png) 1px 5px no-repeat;
           a                 {font-size:1em; color:#333225; text-decoration:none;
@@ -61,8 +61,8 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   }
   .outer                    {width:100%; background:url('../images/content-tail.gif') repeat;
     .wrapper                {padding:30px 0; width:916px;
-      .col                  {padding:0 19px 0 0; width:23%; float:left;
-        h3                  {padding:0 0 10px; color:#fff; text-transform:uppercase; font:1.3em 'Forum', serif;}
+      .col                  {padding:0 19px 0 0; width:22.9%; float:left;
+        h3                  {padding:0 0 10px; color:#fff; text-transform:uppercase; font:1.3em 'Forum', serif; letter-spacing:2px;}
         p                   {padding:0 0 5px; color:#A8B189; font-size:.8em;}
         a                   {color:#fff; font-size:1.1em; font-style:italic; text-decoration:none;
           &:hover           {color:#A2C429;}
@@ -72,10 +72,12 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   }
   footer                    {padding:0; width:100%;
     .wrapper                {padding:35px 0; width:916px;
-      h4                    {padding:0 0 20px; display:inline-block; width:33%; color:#fff; text-transform:uppercase; font:1em 'Forum', serif;
-        span                {color:#575648;}
+      ol                    {padding:0 0 20px; width:33%; color:#A8B189; font-size:.8em; float:left;
+        li                  {list-style:none;
+          span              {color:#575648; font:1.3em 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
+        }
       }
-      ul                    {float:left;
+      ul                    {float:left; clear:both;
         li                  {padding:0 10px; display:inline-block; border-left:1px solid #575648;
           &.first           {padding-left:0; border:none;}
           a                 {color:#8BA729; font-size:.8em; text-decoration:none;
