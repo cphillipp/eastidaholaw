@@ -1,0 +1,230 @@
+/* RESET */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, abbr, img, strong, ul, li,
+fieldset, form, figcaption, figure, footer, header, hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 62.5%;
+  line-height: 1.125em;
+  font: inherit;
+  vertical-align: baseline; }
+
+figcaption, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+/* BASE */
+body {
+  background: #25241B;
+  font-family: 'Abel', arial, sans; }
+  body .wrapper {
+    margin: 0 auto;
+    width: 996px;
+    overflow: hidden;
+    position: relative; }
+  body header {
+    padding: 50px 0 0;
+    width: 100%;
+    background: url("../images/header-tail.gif") repeat-x; }
+    body header h1 {
+      float: left; }
+      body header h1 a {
+        width: 250px;
+        height: 85px;
+        display: block;
+        text-indent: -100%;
+        background: url("../images/logo.png"); }
+    body header p {
+      color: #333225;
+      font-size: .8em;
+      position: absolute;
+      top: 0px;
+      right: 0px; }
+    body header ul {
+      padding: 60px 0 30px;
+      float: right; }
+      body header ul li {
+        padding: 0 0 0 20px;
+        display: inline-block; }
+        body header ul li a {
+          color: #FFFFFF;
+          text-transform: uppercase;
+          text-decoration: none;
+          font: 1.6em 'Forum', serif;
+          text-shadow: 1px 1px 0px #616051; }
+          body header ul li a:hover {
+            color: #A2C429; }
+          body header ul li a.active {
+            color: #A2C429; }
+    body header .banner {
+      clear: both;
+      padding: 20px 20px 0;
+      background: url("../images/box-tail.gif") repeat;
+      -moz-border-radius: 15px 15px 0 0;
+      border-radius: 15px 15px 0 0; }
+      body header .banner #slides {
+        width: 100%;
+        height: 488px;
+        position: relative; }
+        body header .banner #slides .slides_container {
+          width: 956px;
+          height: 488px;
+          overflow: hidden;
+          position: relative;
+          display: none; }
+          body header .banner #slides .slides_container .slide {
+            width: 956px;
+            height: 488px;
+            display: block; }
+            body header .banner #slides .slides_container .slide .caption {
+              z-index: 500;
+              position: absolute;
+              bottom: -35px;
+              left: 0;
+              height: 30px;
+              padding: 5px 20px 0 20px;
+              background: #000;
+              background: rgba(0, 0, 0, 0.5);
+              width: 100%;
+              font-size: 1.3em;
+              line-height: 1.33;
+              color: #fff;
+              border-top: 1px solid #000;
+              text-shadow: none; }
+        body header .banner #slides .next, body header .banner #slides .prev {
+          position: absolute;
+          top: 107px;
+          left: -39px;
+          width: 24px;
+          height: 43px;
+          display: block;
+          z-index: 101; }
+        body header .banner #slides .next {
+          left: 585px; }
+        body header .banner #slides .pagination {
+          margin: 0;
+          padding: 0;
+          width: 100px;
+          position: absolute;
+          top: 15px;
+          left: 20px;
+          z-index: 9999; }
+          body header .banner #slides .pagination li {
+            float: left;
+            margin: 0 1px;
+            padding: 0;
+            list-style: none; }
+            body header .banner #slides .pagination li a {
+              display: block;
+              width: 12px;
+              height: 0;
+              padding-top: 12px;
+              background-image: url(../images/pagination.png);
+              background-position: 0 0;
+              float: left;
+              overflow: hidden; }
+            body header .banner #slides .pagination li.current a {
+              background-position: 0 -12px; }
+  body .content {
+    width: 100%;
+    background: url("../images/content-tail.gif") repeat; }
+    body .content .wrapper {
+      padding: 10px 20px;
+      width: 956px;
+      background: url("../images/box-tail.gif") repeat;
+      -moz-border-radius: 0 0 15px 15px;
+      border-radius: 0 0 15px 15px; }
+      body .content .wrapper .left {
+        padding: 20px 0 20px 20px;
+        width: 45%;
+        border-top: 2px solid #333225;
+        float: left; }
+        body .content .wrapper .left.small {
+          width: 25%; }
+      body .content .wrapper .right {
+        padding: 20px 0 20px 20px;
+        width: 45%;
+        border-top: 2px solid #333225;
+        float: right; }
+        body .content .wrapper .right.big {
+          width: 68%; }
+          body .content .wrapper .right.big ul {
+            float: left;
+            padding: 0 20px 0 0; }
+      body .content .wrapper h2 {
+        padding: 0 0 20px;
+        color: #333225;
+        text-transform: uppercase;
+        font: 1.6em 'Forum', serif; }
+      body .content .wrapper ul {
+        list-style: none; }
+        body .content .wrapper ul li {
+          padding: 0 0 8px 24px;
+          line-height: 1.3em;
+          background: url(../images/marker-1.png) 1px 5px no-repeat; }
+          body .content .wrapper ul li a {
+            font-size: 1em;
+            color: #333225;
+            text-decoration: none; }
+            body .content .wrapper ul li a:hover {
+              color: #99a721; }
+  body .outer {
+    width: 100%;
+    background: url("../images/content-tail.gif") repeat; }
+    body .outer .wrapper {
+      padding: 30px 0;
+      width: 916px; }
+      body .outer .wrapper .col {
+        padding: 0 19px 0 0;
+        width: 23%;
+        float: left; }
+        body .outer .wrapper .col h3 {
+          padding: 0 0 10px;
+          color: #fff;
+          text-transform: uppercase;
+          font: 1.3em 'Forum', serif; }
+        body .outer .wrapper .col p {
+          padding: 0 0 5px;
+          color: #A8B189;
+          font-size: .8em; }
+        body .outer .wrapper .col a {
+          color: #fff;
+          font-size: 1.1em;
+          font-style: italic;
+          text-decoration: none; }
+          body .outer .wrapper .col a:hover {
+            color: #A2C429; }
+  body footer {
+    padding: 0;
+    width: 100%; }
+    body footer .wrapper {
+      padding: 35px 0;
+      width: 916px; }
+      body footer .wrapper h4 {
+        padding: 0 0 20px;
+        display: inline-block;
+        width: 33%;
+        color: #fff;
+        text-transform: uppercase;
+        font: 1em 'Forum', serif; }
+        body footer .wrapper h4 span {
+          color: #575648; }
+      body footer .wrapper ul {
+        float: left; }
+        body footer .wrapper ul li {
+          padding: 0 10px;
+          display: inline-block;
+          border-left: 1px solid #575648; }
+          body footer .wrapper ul li.first {
+            padding-left: 0;
+            border: none; }
+          body footer .wrapper ul li a {
+            color: #8BA729;
+            font-size: .8em;
+            text-decoration: none; }
+            body footer .wrapper ul li a:hover {
+              color: #575648; }
+      body footer .wrapper p {
+        color: #575648;
+        font-size: .8em;
+        float: right; }
