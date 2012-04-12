@@ -34,7 +34,7 @@ body {
         display: block;
         text-indent: -100%;
         background: url("../images/logo.png"); }
-    body header p {
+    body header .info {
       color: #333225;
       font-size: .8em;
       position: absolute;
