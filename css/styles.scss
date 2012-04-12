@@ -6,6 +6,7 @@ figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 /* BASE */
 body                        {background:#25241B; font-family:'Abel', arial, sans;
   a                         {color:#8BA729;}
+  .clear                    {clear:both;}
   .wrapper                  {margin:0 auto; width:996px; overflow:hidden; position:relative;}
   header                    {padding:50px 0 0; width:100%; background:url('../images/header-tail.gif') repeat-x;
     h1                      {float:left;
@@ -21,9 +22,7 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
       }
     }
     .banner                 {clear:both; padding:20px 20px 0; background:url('../images/box-tail.gif') repeat; -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;
-      //Important: Set the width of your slides container, Set to display none, prevents content flash
       #slides               {width:100%; height:488px; position:relative;
-        //Important:Set the width of your slides, If height not specified height will be set by the slide content, Set to display block
         .slides_container   {width:956px; height:488px; overflow:hidden; position:relative; display:none;
           .slide            {width:956px; height:488px; display:block;
             .caption        {z-index:500; position:absolute; bottom:-35px; left:0; height:30px; padding:5px 20px 0 20px; background:#000; background:rgba(0,0,0,.5); width:100%; font-size:1.3em; line-height:1.33; color:#fff; border-top:1px solid #000; text-shadow:none;}

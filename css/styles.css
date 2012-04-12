@@ -19,6 +19,8 @@ body {
   font-family: 'Abel', arial, sans; }
   body a {
     color: #8BA729; }
+  body .clear {
+    clear: both; }
   body .wrapper {
     margin: 0 auto;
     width: 996px;
