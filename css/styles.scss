@@ -11,8 +11,8 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
       a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0em; line-height:0em; background:url('../images/logo.png');}
     }
     .info                   {color:#333225; font-size:.8em; position:absolute; top:0px; right:0px;}              
-    ul                      {padding:60px 0 30px; float:right;
-      li                    {padding:0 0 0 20px; display:inline-block;
+    ul                      {padding:60px 0 30px; float:right; list-style:none;
+      li                    {padding:0 0 0 20px; float:left;
         a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:1.5em 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051;
           &:hover           {color:#A2C429;}
           &.active          {color:#A2C429;}
@@ -77,8 +77,8 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           span              {color:#575648; font:1.3em 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
         }
       }
-      ul                    {float:left; clear:both;
-        li                  {padding:0 10px; display:inline-block; border-left:1px solid #575648;
+      ul                    {float:left; clear:both; list-style:none;
+        li                  {padding:0 10px; float:left; border-left:1px solid #575648;
           &.first           {padding-left:0; border:none;}
           a                 {color:#8BA729; font-size:.8em; text-decoration:none;
             &:hover         {color:#575648;}

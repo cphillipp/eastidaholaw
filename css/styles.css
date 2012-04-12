@@ -44,10 +44,11 @@ body {
       right: 0px; }
     body header ul {
       padding: 60px 0 30px;
-      float: right; }
+      float: right;
+      list-style: none; }
       body header ul li {
         padding: 0 0 0 20px;
-        display: inline-block; }
+        float: left; }
         body header ul li a {
           color: #FFFFFF;
           text-transform: uppercase;
@@ -220,10 +221,11 @@ body {
             text-transform: uppercase; }
       body footer .wrapper ul {
         float: left;
-        clear: both; }
+        clear: both;
+        list-style: none; }
         body footer .wrapper ul li {
           padding: 0 10px;
-          display: inline-block;
+          float: left;
           border-left: 1px solid #575648; }
           body footer .wrapper ul li.first {
             padding-left: 0;
