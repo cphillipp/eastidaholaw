@@ -8,11 +8,11 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   a                         {color:#8BA729;}
   .clear                    {clear:both;}
   .wrapper                  {margin:0 auto; width:996px; overflow:hidden; position:relative;}
-  header                    {padding:50px 0 0; width:100%; background:url('../images/header-tail.gif') repeat-x;
+  header                    {padding:50px 0 0; width:100%; background:url('../images/gradient-tile.png') repeat-x;
     h1                      {float:left;
       a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
     }
-    .info                   {color:#333225; font-size:12px; position:absolute; top:0px; right:0px;}              
+    .info                   {color:#A8B189; font-size:12px; position:absolute; top:0px; right:0px;}              
     ul                      {padding:60px 0 30px; float:right; list-style:none;
       li                    {padding:0 0 0 20px; float:left;
         a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:22px 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051;
@@ -22,9 +22,9 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
       }
     }
     .banner                 {clear:both; padding:20px 20px 0; background:url('../images/box-tail.gif') repeat; -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;
-      #slides               {width:100%; height:488px; position:relative;
-        .slides_container   {width:956px; height:488px; overflow:hidden; position:relative; display:none;
-          .slide            {width:956px; height:488px; display:block;
+      #slides               {width:100%; height:412px; position:relative;
+        .slides_container   {width:956px; height:412px; overflow:hidden; position:relative; display:none;
+          .slide            {width:956px; height:412px; display:block;
             .caption        {z-index:500; position:absolute; bottom:-35px; left:0; height:30px; padding:5px 20px 0 20px; background:#000; background:rgba(0,0,0,.5); width:100%; font-size:1.3em; line-height:1.33; color:#fff; border-top:1px solid #000; text-shadow:none;}
           }
         }
@@ -72,14 +72,18 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   }
   footer                    {padding:0; width:100%;
     .wrapper                {padding:35px 0; width:916px;
-      .twitter              {margin:0 0 0 20px; width:32px; height:32px; display:block; float:right; background:url('../images/twitter.png');}
-      .facebook             {margin:0; width:32px; height:32px; display:block; float:right; background:url('../images/facebook.png');}
-      ol                    {padding:0 0 20px; width:28%; color:#A8B189; float:left;
+      .twitter              {margin:0 0 20px; width:32px; height:32px; display:block; float:left; background:url('../images/social.png') -0px -33px;
+        &:hover             {background-position:-33px -33px;}
+      }
+      .facebook             {margin:0 20px 20px 0; width:32px; height:32px; display:block; float:left; clear:left; background:url('../images/social.png') -0px -0px;
+        &:hover             {background-position:-33px 0;}
+      }
+      ol                    {margin:0; width:18%; color:#A8B189; float:right;
         li                  {list-style:none;
           span              {color:#575648; font:17px 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
         }
       }
-      ul                    {float:left; clear:both; list-style:none;
+      ul                    {padding:0 0 20px; float:left; list-style:none;
         li                  {padding:0 10px; float:left; border-left:1px solid #575648;
           &.first           {padding-left:0; border:none;}
           a                 {color:#8BA729; font-size:13px; text-decoration:none;
@@ -87,7 +91,7 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           }
         }
       }
-      p                     {color:#575648; font-size:13px; float:right;}
+      p                     {color:#575648; font-size:13px; float:left; clear:left;}
     }
   }
 }
