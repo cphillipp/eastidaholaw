@@ -19,8 +19,8 @@ body {
   font-family: 'Abel', arial, sans; }
   body a {
     color: #8BA729; }
-  body .clear {
-    clear: both; }
+  body .clear-left {
+    clear: left; }
   body .wrapper {
     margin: 0 auto;
     width: 996px;
@@ -225,7 +225,6 @@ body {
         height: 32px;
         display: block;
         float: left;
-        clear: left;
         background: url("../images/social.png") 0px 0px; }
         body footer .wrapper .facebook:hover {
           background-position: -33px 0; }
