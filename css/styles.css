@@ -51,19 +51,28 @@ body {
       float: right;
       list-style: none; }
       body header ul li {
-        padding: 0 0 0 20px;
+        padding: 0 0 0 30px;
         float: left; }
         body header ul li a {
           color: #FFFFFF;
           text-transform: uppercase;
           text-decoration: none;
-          font: 22px 'Forum', serif;
+          font: 21px 'Forum', serif;
           letter-spacing: 2px;
-          text-shadow: 1px 1px 0px #616051; }
+          text-shadow: 1px 1px 0px #616051;
+          -moz-transition-property: color;
+          -moz-transition-duration: 400ms;
+          -webkit-transition-property: color;
+          -webkit-transition-duration: 400ms;
+          -o-transition-property: color;
+          -o-transition-duration: 400ms;
+          transition-property: color;
+          transition-duration: 400ms; }
           body header ul li a:hover {
             color: #A2C429; }
           body header ul li a.active {
-            color: #A2C429; }
+            color: #A2C429;
+            border-bottom: 1px dashed; }
     body header .banner {
       clear: both;
       padding: 20px 20px 0;
@@ -149,6 +158,15 @@ body {
         float: left; }
         body .content .wrapper .left.small {
           width: 25%; }
+          body .content .wrapper .left.small .firm-toggle li {
+            padding: 0 0 2px 24px;
+            background: url(../images/marker-1.png) 1px 8px no-repeat; }
+            body .content .wrapper .left.small .firm-toggle li a {
+              padding: 3px 10px;
+              width: 161px; }
+            body .content .wrapper .left.small .firm-toggle li.active a {
+              background: #353535;
+              color: #99a721; }
       body .content .wrapper .right {
         padding: 20px 0 20px 20px;
         width: 45%;
@@ -159,6 +177,57 @@ body {
           body .content .wrapper .right.big ul {
             float: left;
             padding: 0 20px 0 0; }
+          body .content .wrapper .right.big section {
+            display: none; }
+            body .content .wrapper .right.big section.active {
+              display: block; }
+            body .content .wrapper .right.big section a {
+              color: #8BA729;
+              text-decoration: none; }
+              body .content .wrapper .right.big section a:hover {
+                text-decoration: underline; }
+      body .content .wrapper .full-col {
+        padding: 20px 0 20px 20px;
+        width: auto;
+        border-top: 2px solid #333225;
+        overflow: hidden; }
+        body .content .wrapper .full-col ul {
+          float: left;
+          padding: 0 20px 0 0;
+          width: 22.9%; }
+        body .content .wrapper .full-col .profile {
+          float: left;
+          padding: 0 35px 35px 0;
+          width: 29.7%; }
+          body .content .wrapper .full-col .profile h4 {
+            padding: 0 0 10px;
+            text-transform: uppercase;
+            font: 16px 'Forum', serif;
+            letter-spacing: 2px; }
+          body .content .wrapper .full-col .profile img {
+            margin: 0 0 10px; }
+          body .content .wrapper .full-col .profile a {
+            padding: 0 10px;
+            display: inline-block;
+            color: #fff;
+            font: 12px;
+            line-height: 25px;
+            text-decoration: none;
+            background: #575648;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -moz-transition-property: background;
+            -moz-transition-duration: 400ms;
+            -webkit-transition-property: background;
+            -webkit-transition-duration: 400ms;
+            -o-transition-property: background;
+            -o-transition-duration: 400ms;
+            transition-property: background;
+            transition-duration: 400ms; }
+            body .content .wrapper .full-col .profile a:hover {
+              background: #8BA729; }
+      body .content .wrapper p {
+        padding: 0 0 20px; }
       body .content .wrapper h2 {
         padding: 0 0 20px;
         color: #333225;
@@ -174,7 +243,16 @@ body {
           body .content .wrapper ul li a {
             font-size: 16px;
             color: #333225;
-            text-decoration: none; }
+            text-decoration: none;
+            display: block;
+            -moz-transition-property: color;
+            -moz-transition-duration: 400ms;
+            -webkit-transition-property: color;
+            -webkit-transition-duration: 400ms;
+            -o-transition-property: color;
+            -o-transition-duration: 400ms;
+            transition-property: color;
+            transition-duration: 400ms; }
             body .content .wrapper ul li a:hover {
               color: #99a721; }
   body .outer {
@@ -201,7 +279,15 @@ body {
           color: #fff;
           font-size: 18px;
           font-style: italic;
-          text-decoration: none; }
+          text-decoration: none;
+          -moz-transition-property: color;
+          -moz-transition-duration: 400ms;
+          -webkit-transition-property: color;
+          -webkit-transition-duration: 400ms;
+          -o-transition-property: color;
+          -o-transition-duration: 400ms;
+          transition-property: color;
+          transition-duration: 400ms; }
           body .outer .wrapper .col a:hover {
             color: #A2C429; }
   body footer {
@@ -254,7 +340,15 @@ body {
           body footer .wrapper ul li a {
             color: #8BA729;
             font-size: 13px;
-            text-decoration: none; }
+            text-decoration: none;
+            -moz-transition-property: color;
+            -moz-transition-duration: 400ms;
+            -webkit-transition-property: color;
+            -webkit-transition-duration: 400ms;
+            -o-transition-property: color;
+            -o-transition-duration: 400ms;
+            transition-property: color;
+            transition-duration: 400ms; }
             body footer .wrapper ul li a:hover {
               color: #575648; }
       body footer .wrapper p {
