@@ -157,14 +157,16 @@ body {
         border-top: 2px solid #333225;
         float: left; }
         body .content .wrapper .left.small {
-          width: 25%; }
+          width: 27%; }
           body .content .wrapper .left.small .firm-toggle li {
             padding: 0 0 2px 24px;
             background: url(../images/marker-1.png) 1px 8px no-repeat; }
-            body .content .wrapper .left.small .firm-toggle li a {
+            body .content .wrapper .left.small .firm-toggle li span {
               padding: 3px 10px;
-              width: 161px; }
-            body .content .wrapper .left.small .firm-toggle li.active a {
+              width: 161px;
+              display: block;
+              cursor: pointer; }
+            body .content .wrapper .left.small .firm-toggle li.active span {
               background: #353535;
               color: #99a721; }
       body .content .wrapper .right {
@@ -173,7 +175,7 @@ body {
         border-top: 2px solid #333225;
         float: right; }
         body .content .wrapper .right.big {
-          width: 68%; }
+          width: 66%; }
           body .content .wrapper .right.big ul {
             float: left;
             padding: 0 20px 0 0; }
@@ -186,6 +188,23 @@ body {
               text-decoration: none; }
               body .content .wrapper .right.big section a:hover {
                 text-decoration: underline; }
+          body .content .wrapper .right.big .profile img {
+            margin: 0 20px 10px 0;
+            float: left; }
+          body .content .wrapper .right.big .profile ul {
+            padding: 0;
+            float: none; }
+            body .content .wrapper .right.big .profile ul li {
+              background: none;
+              padding: 0 0 8px;
+              color: #5F0017; }
+              body .content .wrapper .right.big .profile ul li span {
+                display: inline-block;
+                width: 60px;
+                color: #000000;
+                text-transform: uppercase; }
+          body .content .wrapper .right.big .profile p {
+            clear: both; }
       body .content .wrapper .full-col {
         padding: 20px 0 20px 20px;
         width: auto;
@@ -194,18 +213,24 @@ body {
         body .content .wrapper .full-col ul {
           float: left;
           padding: 0 20px 0 0;
-          width: 22.9%; }
+          width: 22.8%; }
         body .content .wrapper .full-col .profile {
           float: left;
           padding: 0 35px 35px 0;
-          width: 29.6%; }
+          width: 29.5%; }
           body .content .wrapper .full-col .profile h4 {
-            padding: 0 0 10px;
+            margin: 0 0 10px;
+            padding: 0 0 5px;
             text-transform: uppercase;
             font: 16px 'Forum', serif;
-            letter-spacing: 2px; }
+            letter-spacing: 2px;
+            border-bottom: 1px solid; }
           body .content .wrapper .full-col .profile img {
             margin: 0 0 10px; }
+          body .content .wrapper .full-col .profile .address {
+            padding: 0 0 10px;
+            color: #5F0017;
+            font-size: 14px; }
           body .content .wrapper .full-col .profile a {
             padding: 0 10px;
             display: inline-block;
@@ -226,6 +251,61 @@ body {
             transition-duration: 400ms; }
             body .content .wrapper .full-col .profile a:hover {
               background: #8BA729; }
+          body .content .wrapper .full-col .profile .info {
+            float: none;
+            padding: 0 0 30px;
+            width: 100%; }
+            body .content .wrapper .full-col .profile .info li {
+              padding: 0;
+              background: none;
+              color: #5F0017;
+              font-size: 14px; }
+              body .content .wrapper .full-col .profile .info li span {
+                display: inline-block;
+                width: 60px;
+                color: #000;
+                text-transform: uppercase; }
+          body .content .wrapper .full-col .profile form {
+            position: relative;
+            vertical-align: top;
+            width: 100%;
+            z-index: 1; }
+            body .content .wrapper .full-col .profile form fieldset {
+              border: none;
+              width: 100%;
+              overflow: hidden; }
+              body .content .wrapper .full-col .profile form fieldset label {
+                display: block;
+                min-height: 42px;
+                position: relative; }
+                body .content .wrapper .full-col .profile form fieldset label input {
+                  padding: 13px 10px 13px;
+                  margin: 0;
+                  font: 12px;
+                  color: #A2A08D;
+                  background: #25241B;
+                  outline: none;
+                  border: none;
+                  width: 290px; }
+                body .content .wrapper .full-col .profile form fieldset label textarea {
+                  padding: 13px 10px 13px;
+                  margin: 0;
+                  font: 12px;
+                  color: #A2A08D;
+                  background: #25241B;
+                  outline: none;
+                  border: none;
+                  width: 290px;
+                  height: 135px;
+                  overflow: auto;
+                  resize: none; }
+                body .content .wrapper .full-col .profile form fieldset label .error, body .content .wrapper .full-col .profile form fieldset label .empty {
+                  color: red;
+                  font-size: 11px;
+                  line-height: 1.27em;
+                  display: none;
+                  overflow: hidden;
+                  margin-bottom: 5px; }
       body .content .wrapper p {
         padding: 0 0 20px; }
       body .content .wrapper h2 {

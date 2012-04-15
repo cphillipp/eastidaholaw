@@ -42,19 +42,19 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
   .content                  {width:100%; background:url('../images/content-tail.gif') repeat;
     .wrapper                {padding:10px 20px; width:956px; background:url('../images/box-tail.gif') repeat; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px;
       .left                 {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:left;
-        &.small             {width:25%;
+        &.small             {width:27%;
           .firm-toggle      {
             li              {padding:0 0 2px 24px; background:url(../images/marker-1.png) 1px 8px no-repeat;
-              a             {padding:3px 10px; width:161px;}
+              span          {padding:3px 10px; width:161px; display:block; cursor:pointer;}
               &.active      {
-                a           {background:#353535; color:#99a721;}
+                span        {background:#353535; color:#99a721;}
               }
             }
           }
         }
       }
       .right                {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:right;
-        &.big               {width:68%;
+        &.big               {width:66%;
           ul                {float:left; padding:0 20px 0 0;}
           section           {display:none;
             &.active        {display:block;}
@@ -62,15 +62,39 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
               &:hover       {text-decoration:underline;}
             }
           }
+          .profile          {
+            img             {margin:0 20px 10px 0; float:left;}
+            ul              {padding:0; float:none;
+              li            {background:none; padding:0 0 8px; color:#5F0017;
+                span        {display:inline-block; width:60px; color:#000000; text-transform:uppercase;}
+              }
+            }
+            p               {clear:both;}
+          }
         }
       }
       .full-col             {padding:20px 0 20px 20px; width:auto; border-top:2px solid #333225; overflow:hidden;
-        ul                  {float:left; padding:0 20px 0 0; width:22.9%;}
-        .profile            {float:left; padding:0 35px 35px 0; width:29.6%;
-          h4                {padding:0 0 10px; text-transform:uppercase; font:16px 'Forum', serif; letter-spacing:2px;}
+        ul                  {float:left; padding:0 20px 0 0; width:22.8%;}
+        .profile            {float:left; padding:0 35px 35px 0; width:29.5%;
+          h4                {margin:0 0 10px; padding:0 0 5px; text-transform:uppercase; font:16px 'Forum', serif; letter-spacing:2px; border-bottom:1px solid;}
           img               {margin:0 0 10px;}
+          .address          {padding:0 0 10px; color:#5F0017; font-size:14px;}
           a                 {padding:0 10px; display:inline-block; color:#fff; font:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
             &:hover         {background:#8BA729;}
+          }
+          .info             {float:none; padding:0 0 30px; width:100%;
+            li              {padding:0; background:none; color:#5F0017; font-size:14px;
+              span          {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
+            }
+          }
+          form              {position:relative; vertical-align:top; width:100%; z-index:1;
+            fieldset        {border:none; width:100%; overflow:hidden;
+              label         {display:block; min-height:42px; position:relative;
+                input       {padding:13px 10px 13px; margin:0; font:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px;}
+                textarea    {padding:13px 10px 13px; margin:0; font:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px; height:135px; overflow:auto; resize:none;}
+                .error,.empty   {color:red; font-size:11px; line-height:1.27em; display:none; overflow:hidden; margin-bottom:5px;}
+              }
+            }
           }
         }
       }

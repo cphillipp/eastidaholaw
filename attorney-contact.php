@@ -1,11 +1,20 @@
+<?php
+session_start();
+if($_SESSION['message']) {
+  $display_message = $_SESSION['message'];
+  $_SESSION['message'] = '';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Idaho Falls and Driggs Idaho Law Offices Attorneys | Thompson Smith Woolf &amp; Anderson</title>
+  <title>Idaho Falls and Driggs Idaho Law Offices Contact Page | Thompson Smith Woolf &amp; Anderson</title>
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/styles.css" />
   <link href='http://fonts.googleapis.com/css?family=Forum|Abel' rel='stylesheet' type='text/css'>
+  <script src="js/jquery1.7.2.min.js"></script>
+  <script src="js/forms.js"></script>
   <!--[if lt IE 9]>
   <script>
     document.createElement('header');
@@ -23,55 +32,68 @@
       <ul>
         <li><a href="index.html" title="Idaho Falls and Driggs Idaho Law Offices">Home</a></li>
         <li><a href="attorney-practices.html" title="Idaho Falls and Driggs Idaho Law Offices Practice Areas">Practices</a></li>
-        <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys" class="active">Attorneys</a></li>
+        <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys">Attorneys</a></li>
         <li><a href="idaho-law-firm.html" title="Idaho Falls and Driggs Idaho Law Offices Firm Details">The Firm</a></li>
-        <li><a href="attorney-contact.html" title="Idaho Falls and Driggs Idaho Law Offices Contact Page">Contact</a></li>
+        <li><a href="attorney-contact.html" title="Idaho Falls and Driggs Idaho Law Offices Contact Page" class="active">Contact</a></li>
       </ul>
       <section class="banner">
-        <img src="images/idaho-law-firm-justice-image.jpg" alt="Idaho falls law firm upholds justice image" />
+        <img src="images/idaho-law-firm-justice-image02.jpg" alt="Idaho falls law firm upholds justice image" />
       </section>
     </div>
   </header>
   <section class="content">
     <div class="wrapper">
       <div class="full-col">
-        <h2>Our Attorneys</h2>
         <div class="profile">
-          <h4>Stevan H. Thompson</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Stevan H. Thompson, J.D. is a partner in the Idaho Falls law office of Thompson, Smith, Woolf, Anderson, PLLC. His experience includes significant litigation in both Federal and State court...</p>
-          <a href="attorney-profile/idaho-falls-attorney-stevan-thompson.html" title="Idaho Falls Attorney Stevan H. Thompson Profile">More</a>
+          <h2>Address</h2>
+          <h4>Idaho Falls</h4>
+          <p class="address">3480 Merlin Drive<br /> Idaho Falls, ID 83404</p>
+          <ul class="info">
+            <li><span>Phone</span>208-525-8792</li>
+            <li><span>Fax</span>208-525-5266</li>
+            <li><span>Email</span>tswa@eastidaholaw.net</li>
+          </ul>
+          <h4>Driggs</h4>
+          <p class="address">81 N Main St Unit B<br />Driggs, ID 83422<br />PO Box 65</p>
+          <ul class="info">
+            <li><span>Phone</span>208-354-0110</li>
+            <li><span>Fax</span>208-354-0115</li>
+            <li><span>Email</span>tswa@eastidaholaw.net</li>
+          </ul>
         </div>
         <div class="profile">
-          <h4>Curtis R. Smith</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Curtis Reed Smith was born and raised in Idaho Falls and graduated from Idaho Falls High School in 1985. He served a mission for the Church of Jesus Christ of Latter Day Saints in the Baton Rouge Louisiana Mission...</p>
-          <a href="attorney-profile/idaho-falls-attorney-curtis-smith.html" title="Idaho Falls Attorney Curtis R. Smith Profile">More</a>
+          <h2>Map</h2>
+          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?ie=UTF8&amp;q=thompson+smith+woolf+and+anderson&amp;fb=1&amp;gl=us&amp;hq=thompson+smith+woolf+and+anderson&amp;hnear=0x5354594e739512b5:0x2311c9fc094c49c9,Idaho+Falls,+ID&amp;cid=0,0,16825674730879410015&amp;t=m&amp;iwloc=A&amp;ll=43.466351,-112.000197&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
         </div>
         <div class="profile">
-          <h4>Aaron J. Woolf</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Aaron Woolf graduated from the University of Idaho College of Law in 1998. Prior to attending law school, he received a degree in accounting from Idaho State University...</p>
-          <a href="attorney-profile/idaho-falls-attorney-aaron-woolf.html" title="Idaho Falls Attorney Aaron J. Woolf Profile">More</a>
-        </div>
-        <div class="clear-left"></div>
-        <div class="profile">
-          <h4>Marty R. Anderson</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Marty Anderson hails from American Falls, Idaho but has made his home in Idaho Falls since 1998. In 1995 and 1998 respectively, Mr. Anderson received a Bachelor of Science degree in Environmental Science and a Juris Doctorate degree from the University of Idaho...</p>
-          <a href="attorney-profile/idaho-falls-attorney-marty-anderson.html" title="Idaho Falls Attorney Marty R. Anderson Profile">More</a>
-        </div>
-        <div class="profile">
-          <h4>Dennis P. Wilkinson</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Dennis was raised in Idaho Falls and is very pleased to have the opportunity to practice law in this community. Dennis graduated from Idaho State University in 1995 with Bachelor degrees in Political Science and Spanish...</p>
-          <a href="attorney-profile/idaho-falls-attorney-dennis-wilkinson.html" title="Idaho Falls Attorney Dennis P. Wilkinson Profile">More</a>
-        </div>
-        <div class="profile">
-          <h4>Barton J. Birch</h4>
-          <img src="images/profile-pic.png" alt="Stevan H. Thompson Idaho Falls Attorney" />
-          <p>Barton J. Birch manages our firm's Teton Valley office located in Driggs. Mr. Birch is a 2001 graduate of the University of Idaho College of Law where he graduated Magna Cum Laude; and he is a 1998 graduate of Idaho State University where he graduated with high honors with degrees in Economics and Political Science...</p>
-          <a href="attorney-profile/driggs-idaho-attorney-barton-birch.html" title="Idaho Falls Attorney Barton J. Birch Profile">More</a>
+          <h2>Contact Form</h2>
+          <form id="contact-form">
+            <fieldset>
+              <label class="name">
+                <input type="text" value="Name">
+                <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> 
+              </label>
+              <label class="email invalid">
+                <input type="text" value="Email">
+                <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
+              </label>
+              <label class="phone invalid">
+                <input type="tel" value="Telephone">
+                <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
+              </label>
+              <label class="message invalid">
+                <textarea>Message</textarea>
+                <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
+              </label>
+              <a class="link" data-type="reset">Clear</a>
+              <a class="link" data-type="submit">Submit</a>
+              <?php
+                if(isset($display_message)) {
+                    echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
+                }
+              ?>
+            </fieldset>
+          </form>
         </div>
       </div>
     </div>
