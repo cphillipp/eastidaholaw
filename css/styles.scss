@@ -95,6 +95,9 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
                 .error,.empty   {color:red; font-size:11px; line-height:1.27em; display:none; overflow:hidden; margin-bottom:5px;}
               }
             }
+            input.submit    {padding:0 10px; display:inline-block; color:#fff; font:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+              &:hover       {background:#8BA729;}
+            }
           }
         }
       }
