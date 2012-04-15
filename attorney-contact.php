@@ -88,7 +88,7 @@ if($_SESSION['message']) {
               <a class="link" data-type="reset">Clear</a>
               <input type="submit" value="Submit" data-type="submit" class="submit" />
               <?php
-                if(isset($display_message)) {
+                if(!isset($display_message)) {
                     echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
                 }
               ?>
