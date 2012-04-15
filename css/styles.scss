@@ -79,7 +79,7 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           h4                {margin:0 0 10px; padding:0 0 5px; text-transform:uppercase; font:16px 'Forum', serif; letter-spacing:2px; border-bottom:1px solid;}
           img               {margin:0 0 10px;}
           .address          {padding:0 0 10px; color:#5F0017; font-size:14px;}
-          a                 {padding:0 10px; display:inline-block; color:#fff; font:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+          a                 {padding:0 10px; display:inline-block; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
             &:hover         {background:#8BA729;}
           }
           .info             {float:none; padding:0 0 30px; width:100%;
@@ -90,12 +90,15 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
           form              {position:relative; vertical-align:top; width:100%; z-index:1;
             fieldset        {border:none; width:100%; overflow:hidden;
               label         {display:block; min-height:42px; position:relative;
-                input       {padding:13px 10px 13px; margin:0; font:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px;}
-                textarea    {padding:13px 10px 13px; margin:0; font:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px; height:135px; overflow:auto; resize:none;}
+                input       {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px;}
+                textarea    {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px; height:135px; overflow:auto; resize:none;}
                 .error,.empty   {color:red; font-size:11px; line-height:1.27em; display:none; overflow:hidden; margin-bottom:5px;}
               }
             }
-            input.submit    {padding:0 10px; display:inline-block; color:#fff; font:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+            input.submit    {padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; font-family:'Abel', arial, sans; border:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+              &:hover       {background:#8BA729;}
+            }
+            .link           {padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
               &:hover       {background:#8BA729;}
             }
           }

@@ -235,7 +235,7 @@ body {
             padding: 0 10px;
             display: inline-block;
             color: #fff;
-            font: 12px;
+            font-size: 12px;
             line-height: 25px;
             text-decoration: none;
             background: #575648;
@@ -280,8 +280,8 @@ body {
                 position: relative; }
                 body .content .wrapper .full-col .profile form fieldset label input {
                   padding: 13px 10px 13px;
-                  margin: 0;
-                  font: 12px;
+                  margin: 0 0 5px;
+                  font-size: 12px;
                   color: #A2A08D;
                   background: #25241B;
                   outline: none;
@@ -289,8 +289,8 @@ body {
                   width: 290px; }
                 body .content .wrapper .full-col .profile form fieldset label textarea {
                   padding: 13px 10px 13px;
-                  margin: 0;
-                  font: 12px;
+                  margin: 0 0 5px;
+                  font-size: 12px;
                   color: #A2A08D;
                   background: #25241B;
                   outline: none;
@@ -309,8 +309,32 @@ body {
             body .content .wrapper .full-col .profile form input.submit {
               padding: 0 10px;
               display: inline-block;
+              height: 25px;
               color: #fff;
-              font: 12px;
+              font-size: 12px;
+              line-height: 25px;
+              text-decoration: none;
+              background: #575648;
+              font-family: 'Abel', arial, sans;
+              border: none;
+              -moz-border-radius: 5px;
+              border-radius: 5px;
+              -moz-transition-property: background;
+              -moz-transition-duration: 400ms;
+              -webkit-transition-property: background;
+              -webkit-transition-duration: 400ms;
+              -o-transition-property: background;
+              -o-transition-duration: 400ms;
+              transition-property: background;
+              transition-duration: 400ms; }
+              body .content .wrapper .full-col .profile form input.submit:hover {
+                background: #8BA729; }
+            body .content .wrapper .full-col .profile form .link {
+              padding: 0 10px;
+              display: inline-block;
+              height: 25px;
+              color: #fff;
+              font-size: 12px;
               line-height: 25px;
               text-decoration: none;
               background: #575648;
@@ -324,7 +348,7 @@ body {
               -o-transition-duration: 400ms;
               transition-property: background;
               transition-duration: 400ms; }
-              body .content .wrapper .full-col .profile form input.submit:hover {
+              body .content .wrapper .full-col .profile form .link:hover {
                 background: #8BA729; }
       body .content .wrapper p {
         padding: 0 0 20px; }
