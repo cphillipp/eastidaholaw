@@ -307,6 +307,7 @@ body {
                   overflow: hidden;
                   margin-bottom: 5px; }
             body .content .wrapper .full-col .profile form input.submit {
+              cursor: pointer;
               padding: 0 10px;
               display: inline-block;
               height: 25px;
@@ -330,6 +331,7 @@ body {
               body .content .wrapper .full-col .profile form input.submit:hover {
                 background: #8BA729; }
             body .content .wrapper .full-col .profile form .link {
+              cursor: pointer;
               padding: 0 10px;
               display: inline-block;
               height: 25px;
