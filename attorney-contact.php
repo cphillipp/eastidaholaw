@@ -86,7 +86,6 @@ if($_SESSION['message']) {
                 <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
               </label>
               <a class="link" data-type="reset">Clear</a>
-              <a class="link" data-type="submit">Submit</a>
               <input type="submit" value="Submit" data-type="submit" class="submit" />
               <?php
                 if(isset($display_message)) {

@@ -306,6 +306,26 @@ body {
                   display: none;
                   overflow: hidden;
                   margin-bottom: 5px; }
+            body .content .wrapper .full-col .profile form input.submit {
+              padding: 0 10px;
+              display: inline-block;
+              color: #fff;
+              font: 12px;
+              line-height: 25px;
+              text-decoration: none;
+              background: #575648;
+              -moz-border-radius: 5px;
+              border-radius: 5px;
+              -moz-transition-property: background;
+              -moz-transition-duration: 400ms;
+              -webkit-transition-property: background;
+              -webkit-transition-duration: 400ms;
+              -o-transition-property: background;
+              -o-transition-duration: 400ms;
+              transition-property: background;
+              transition-duration: 400ms; }
+              body .content .wrapper .full-col .profile form input.submit:hover {
+                background: #8BA729; }
       body .content .wrapper p {
         padding: 0 0 20px; }
       body .content .wrapper h2 {
