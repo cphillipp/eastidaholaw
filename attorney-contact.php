@@ -34,7 +34,7 @@ if($_SESSION['message']) {
         <li><a href="attorney-practices.html" title="Idaho Falls and Driggs Idaho Law Offices Practice Areas">Practices</a></li>
         <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys">Attorneys</a></li>
         <li><a href="idaho-law-firm.html" title="Idaho Falls and Driggs Idaho Law Offices Firm Details">The Firm</a></li>
-        <li><a href="attorney-contact.html" title="Idaho Falls and Driggs Idaho Law Offices Contact Page" class="active">Contact</a></li>
+        <li><a href="attorney-contact.php" title="Idaho Falls and Driggs Idaho Law Offices Contact Page" class="active">Contact</a></li>
       </ul>
       <section class="banner">
         <img src="images/idaho-law-firm-justice-image02.jpg" alt="Idaho falls law firm upholds justice image" />
@@ -129,7 +129,7 @@ if($_SESSION['message']) {
         <li><a href="attorney-practices.html" title="Idaho Falls and Driggs Idaho Law Offices Practice Areas">Practices</a></li>
         <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys">Attorneys</a></li>
         <li><a href="idaho-law-firm.html" title="Idaho Falls and Driggs Idaho Law Offices Firm Details">The Firm</a></li>
-        <li><a href="attorney-contact.html" title="Idaho Falls and Driggs Idaho Law Offices Contact Page">Contact</a></li>
+        <li><a href="attorney-contact.php" title="Idaho Falls and Driggs Idaho Law Offices Contact Page">Contact</a></li>
         <li><a href="#">Site Map</a></li>
       </ul>
       <ol>
