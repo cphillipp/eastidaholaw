@@ -9,7 +9,7 @@
     $message = $name . "\n ". $email . "\n ". $phone . "\n ". $message;
     $headers = "From: $email";
     $sent = mail($to, $subject, $message, $headers);
-    if(!isset($sent)) {
+    if($sent) {
         $_SESSION['message'] = 'Contact form submitted! Thank you, we will be in touch soon.';
         header('Location: attorney-contact.php#bottom');
     }
@@ -18,3 +18,4 @@
         header('Location: attorney-contact.php#bottom');
     }
 ?>
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
