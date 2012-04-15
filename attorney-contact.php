@@ -1,10 +1,4 @@
-<?php
-session_start();
-if($_SESSION['message']) {
-  $display_message = $_SESSION['message'];
-  $_SESSION['message'] = '';
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,11 +81,7 @@ if($_SESSION['message']) {
               </label>
               <a class="link" data-type="reset">Clear</a>
               <input type="submit" value="Submit" data-type="submit" class="submit" />
-              <?php
-                if(isset($display_message)) {
-                    echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-                }
-              ?>
+
             </fieldset>
           </form>
         </div>
