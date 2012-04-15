@@ -85,8 +85,8 @@ if($_SESSION['message']) {
                 <textarea name="message">Message</textarea>
                 <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
               </label>
-              <span class="link" data-type="reset">clear</span>
-              <input type="submit" value="submit" data-type="submit" class="submit" />
+              <a class="link" data-type="reset">Clear</a>
+              <input type="submit" value="Submit" data-type="submit" class="submit" />
               <?php
                 if(isset($display_message)) {
                     echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
