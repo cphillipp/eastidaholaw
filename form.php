@@ -1,11 +1,11 @@
 <?php
     session_start();
-    $to = "info@paymentrix.com";
+    $to = "clayphillipp@gmail.com";
     $subject = "Contact Us";
-    $email = $_POST['email'];
-    $message = $_POST['message'];
     $name = $_POST['name'];
+    $email = $_POST['email'];
     $phone = $_POST['phone'];
+    $message = $_POST['message'];
     $message = $name . "\n ". $email . "\n ". $phone . "\n ". $message;
     $headers = "From: $email";
     $sent = mail($to, $subject, $message, $headers);

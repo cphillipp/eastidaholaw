@@ -67,22 +67,22 @@ if($_SESSION['message']) {
         </div>
         <div class="profile">
           <h2>Contact Form</h2>
-          <form id="contact-form">
+          <form method="post" action="form.php" id="contact-form">
             <fieldset>
               <label class="name">
-                <input type="text" value="Name">
+                <input name="name" type="text" value="Name">
                 <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> 
               </label>
               <label class="email invalid">
-                <input type="text" value="Email">
+                <input name="email" type="text" value="Email">
                 <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
               </label>
               <label class="phone invalid">
-                <input type="tel" value="Telephone">
+                <input name="phone" type="tel" value="Telephone">
                 <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
               </label>
               <label class="message invalid">
-                <textarea>Message</textarea>
+                <textarea name="message">Message</textarea>
                 <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
               </label>
               <a class="link" data-type="reset">Clear</a>
