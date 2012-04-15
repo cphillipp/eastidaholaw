@@ -1,6 +1,6 @@
 <?php
 session_start();
-if($_SESSION['message']) {
+if(isset($_SESSION['message'])) {
   $display_message = $_SESSION['message'];
   $_SESSION['message'] = '';
 }
