@@ -11,10 +11,10 @@
     $sent = mail($to, $subject, $message, $headers);
     if($sent) {
         $_SESSION['message'] = 'Contact form submitted! Thank you, we will be in touch soon.';
-        header('Location: contact.php#bottom');
+        header('Location: attorney-contact.php#bottom');
     }
     else{
         $_SESSION['message'] = 'Sorry, there was a problem. Please try again.';
-        header('Location: contact.php#bottom');
+        header('Location: attorney-contact.php#bottom');
     }
 ?>
