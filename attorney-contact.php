@@ -5,7 +5,6 @@ if($_SESSION['message']) {
   $_SESSION['message'] = '';
 }
 ?>
-<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
