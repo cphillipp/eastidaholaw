@@ -58,7 +58,7 @@ if(isset($_SESSION['message'])) {
           <ul class="info">
             <li><span>Phone</span>208-354-0110</li>
             <li><span>Fax</span>208-354-0115</li>
-            <li><span>Email</span>tswa@eastidaholaw.net</li>
+            <li><span>Email</span>bart@eastidaholaw.net</li>
           </ul>
         </div>
         <div class="profile">
@@ -125,7 +125,7 @@ if(isset($_SESSION['message'])) {
   <footer>
     <div class="wrapper">
       <ul>
-        <li><a href="index.html" title="Idaho Falls and Driggs Idaho Law Offices">Home</a></li>
+        <li class="first"><a href="index.html" title="Idaho Falls and Driggs Idaho Law Offices">Home</a></li>
         <li><a href="attorney-practices.html" title="Idaho Falls and Driggs Idaho Law Offices Practice Areas">Practices</a></li>
         <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys">Attorneys</a></li>
         <li><a href="idaho-law-firm.html" title="Idaho Falls and Driggs Idaho Law Offices Firm Details">The Firm</a></li>
