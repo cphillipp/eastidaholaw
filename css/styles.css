@@ -224,7 +224,7 @@ body {
             text-transform: uppercase;
             font: 16px 'Forum', serif;
             letter-spacing: 2px;
-            border-bottom: 1px solid; }
+            border-bottom: 1px dashed; }
           body .content .wrapper .full-col .profile img {
             margin: 0 0 10px; }
           body .content .wrapper .full-col .profile .address {
