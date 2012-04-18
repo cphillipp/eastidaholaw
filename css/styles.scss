@@ -87,12 +87,14 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
               span          {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
             }
           }
-          form              {position:relative; vertical-align:top; width:100%; z-index:1;
-            fieldset        {border:none; width:100%; overflow:hidden;
-              label         {display:block; min-height:42px; position:relative;
-                input       {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px;}
-                textarea    {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; background:#25241B; outline:none; border:none; width:290px; height:135px; overflow:auto; resize:none;}
-                .error,.empty   {color:red; font-size:11px; line-height:1.27em; display:none; overflow:hidden; margin-bottom:5px;}
+          form                  {position:relative; vertical-align:top; width:100%; z-index:1;
+            fieldset            {border:none; width:100%; overflow:hidden;
+              .box              {display:block; min-height:42px; position:relative;
+                input           {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; font-family:'Abel', arial, sans; background:#25241B; outline:none; border:none; width:290px;}
+                input.error     {margin:0;}
+                textarea        {padding:13px 10px 13px; margin:0 0 5px; font-size:12px; color:#A2A08D; font-family:'Abel', arial, sans; background:#25241B; outline:none; border:none; width:290px; height:135px; overflow:auto; resize:none;}
+                textarea.error  {margin:0 0 -5px;}
+                label.error     {color:red; font-size:11px; line-height:1.27em; display:inline-block; overflow:hidden; margin-bottom:5px;}
               }
             }
             input.submit    {cursor:pointer; padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; font-family:'Abel', arial, sans; border:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;

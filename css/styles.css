@@ -274,24 +274,28 @@ body {
               border: none;
               width: 100%;
               overflow: hidden; }
-              body .content .wrapper .full-col .profile form fieldset label {
+              body .content .wrapper .full-col .profile form fieldset .box {
                 display: block;
                 min-height: 42px;
                 position: relative; }
-                body .content .wrapper .full-col .profile form fieldset label input {
+                body .content .wrapper .full-col .profile form fieldset .box input {
                   padding: 13px 10px 13px;
                   margin: 0 0 5px;
                   font-size: 12px;
                   color: #A2A08D;
+                  font-family: 'Abel', arial, sans;
                   background: #25241B;
                   outline: none;
                   border: none;
                   width: 290px; }
-                body .content .wrapper .full-col .profile form fieldset label textarea {
+                body .content .wrapper .full-col .profile form fieldset .box input.error {
+                  margin: 0; }
+                body .content .wrapper .full-col .profile form fieldset .box textarea {
                   padding: 13px 10px 13px;
                   margin: 0 0 5px;
                   font-size: 12px;
                   color: #A2A08D;
+                  font-family: 'Abel', arial, sans;
                   background: #25241B;
                   outline: none;
                   border: none;
@@ -299,11 +303,13 @@ body {
                   height: 135px;
                   overflow: auto;
                   resize: none; }
-                body .content .wrapper .full-col .profile form fieldset label .error, body .content .wrapper .full-col .profile form fieldset label .empty {
+                body .content .wrapper .full-col .profile form fieldset .box textarea.error {
+                  margin: 0 0 -5px; }
+                body .content .wrapper .full-col .profile form fieldset .box label.error {
                   color: red;
                   font-size: 11px;
                   line-height: 1.27em;
-                  display: none;
+                  display: inline-block;
                   overflow: hidden;
                   margin-bottom: 5px; }
             body .content .wrapper .full-col .profile form input.submit {

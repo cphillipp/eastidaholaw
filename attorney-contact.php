@@ -14,7 +14,9 @@ if(isset($_SESSION['message'])) {
   <link rel="stylesheet" href="css/styles.css" />
   <link href='http://fonts.googleapis.com/css?family=Forum|Abel' rel='stylesheet' type='text/css'>
   <script src="js/jquery1.7.2.min.js"></script>
-  <script src="js/forms.js"></script>
+  <script src="js/placeholder.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/contact.js"></script>
   <!--[if lt IE 9]>
   <script>
     document.createElement('header');
@@ -69,29 +71,24 @@ if(isset($_SESSION['message'])) {
           <h2>Contact Form</h2>
           <form method="post" action="form.php" id="contact-form">
             <fieldset>
-              <label class="name">
-                <input name="name" type="text" value="Name">
-                <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> 
-              </label>
-              <label class="email invalid">
-                <input name="email" type="text" value="Email">
-                <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span>
-              </label>
-              <label class="phone invalid">
-                <input name="phone" type="tel" value="Telephone">
-                <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span>
-              </label>
-              <label class="message invalid">
-                <textarea name="message">Message</textarea>
-                <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span>
-              </label>
-              <a class="link" data-type="reset">Clear</a>
-              <input type="submit" value="Submit" data-type="submit" class="submit" />
               <?php
                 if(isset($display_message)) {
                     echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
                 }
               ?>
+              <div class="box">
+                <input name="name" type="text" placeholder="Name" class="required" minlength="2" />
+              </div>
+              <div class="box">
+                <input name="email" type="text" placeholder="Email" class="required email" />
+              </div>
+              <div class="box">
+                <input name="phone" type="tel" placeholder="Telephone" class="required number" minlength="7" />
+              </div>
+              <div class="box">
+                <textarea name="message" class="required" minlength="10"></textarea>
+              </div>
+              <input type="submit" value="Submit" class="submit" />
             </fieldset>
           </form>
         </div>
@@ -151,5 +148,10 @@ if(isset($_SESSION['message'])) {
       <p>Copyright &copy; 2012 - Thompson Smith Woolf &amp; Anderson Law</p>
     </div>
   </footer>
+  <?php
+    if(isset($display_message)) {
+      unset($_SESSION['message']);
+    }
+  ?>
 </body>
 </html>
