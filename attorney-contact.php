@@ -22,7 +22,7 @@ if(isset($_SESSION['message'])) {
     document.createElement('header');
     document.createElement('nav');
     document.createElement('section');
-    document.createElement('footer');
+    document.createElement('footers');
   </script>
   <![endif]-->
 </head>
