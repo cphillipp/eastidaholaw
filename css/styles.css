@@ -169,20 +169,42 @@ body {
             body .content .wrapper .left.small .firm-toggle li.active span {
               background: #353535;
               color: #99a721; }
-            body .content .wrapper .left.small .firm-toggle li.active ul {
+            body .content .wrapper .left.small .firm-toggle li.active div {
               display: block; }
-              body .content .wrapper .left.small .firm-toggle li.active ul li {
-                margin: 0;
-                padding: 3px 10px;
-                font-size: 14px;
-                background: #d3c4ad;
-                border-bottom: 1px dashed #353535; }
-                body .content .wrapper .left.small .firm-toggle li.active ul li.last {
+              body .content .wrapper .left.small .firm-toggle li.active div span {
+                padding: 3px 10px 3px 20px;
+                color: #000;
+                font-size: 13px;
+                font-style: italic;
+                background: transparent;
+                border-bottom: 1px dashed #353535;
+                -moz-transition-property: color;
+                -moz-transition-duration: 400ms;
+                -webkit-transition-property: color;
+                -webkit-transition-duration: 400ms;
+                -o-transition-property: color;
+                -o-transition-duration: 400ms;
+                transition-property: color;
+                transition-duration: 400ms;
+                -moz-transition-property: background;
+                -moz-transition-duration: 400ms;
+                -webkit-transition-property: background;
+                -webkit-transition-duration: 400ms;
+                -o-transition-property: background;
+                -o-transition-duration: 400ms;
+                transition-property: background;
+                transition-duration: 400ms; }
+                body .content .wrapper .left.small .firm-toggle li.active div span:hover {
+                  color: #FFF;
+                  background: #656565; }
+                body .content .wrapper .left.small .firm-toggle li.active div span.active {
+                  color: #FFF;
+                  background: #656565; }
+                body .content .wrapper .left.small .firm-toggle li.active div span.last {
                   border: none; }
-            body .content .wrapper .left.small .firm-toggle li ul {
-              margin: 0;
-              padding: 0;
-              display: none; }
+            body .content .wrapper .left.small .firm-toggle li div {
+              display: none;
+              background: #94927e; }
       body .content .wrapper .right {
         padding: 20px 0 20px 20px;
         width: 45%;
@@ -280,20 +302,26 @@ body {
                 color: #000;
                 text-transform: uppercase; }
           body .content .wrapper .full-col .profile .stevan {
-            margin: 0 0 10px;
-            width: 120px;
-            height: 120px;
-            background: url("../images/stevan-h-thompson-attorney-at-law02.png") no-repeat;
-            -moz-transition-property: background;
-            -moz-transition-duration: 1000ms;
-            -webkit-transition-property: background;
-            -webkit-transition-duration: 1000ms;
-            -o-transition-property: background;
-            -o-transition-duration: 1000ms;
-            transition-property: background;
-            transition-duration: 1000ms; }
-            body .content .wrapper .full-col .profile .stevan:hover {
-              background: url("../images/stevan-h-thompson-attorney-at-law01.png") no-repeat; }
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/stevan-h-thompson-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .stevan img {
+              display: none; }
+          body .content .wrapper .full-col .profile .curtis {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/curtis-r-smith-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .curtis img {
+              display: none; }
+          body .content .wrapper .full-col .profile .aaron {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/aaron-j-woolf-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .aaron img {
+              display: none; }
           body .content .wrapper .full-col .profile form {
             position: relative;
             vertical-align: top;

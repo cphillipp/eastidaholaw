@@ -31,47 +31,4 @@ $(document).ready(function() {
       }
     });
   });
-
-  $(".firm-toggle .firm").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .firm").addClass("active");
-  });
-  $(".firm-toggle .staff").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .staff").addClass("active");
-  });
-  $(".firm-toggle .history").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .history").addClass("active");
-  });
-  $(".firm-toggle .credo").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .credo").addClass("active");
-  });
-  $(".firm-toggle .diversity").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .diversity").addClass("active");
-  });
-  $(".firm-toggle .community").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .community").addClass("active");
-  });
-  $(".firm-toggle .recognition").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .recognition").addClass("active");
-  });
 });

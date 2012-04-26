@@ -4,97 +4,105 @@ fieldset,form,figcaption,figure,footer,header,hgroup,nav,section{margin:0; paddi
 figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 
 /* BASE */
-body                        {background:#25241B; font-family:'Abel', arial, sans;
-  a                         {color:#8BA729;}
-  .clear-left               {clear:left;}
-  .wrapper                  {margin:0 auto; width:996px; overflow:hidden; position:relative;}
-  header                    {padding:50px 0 0; width:100%; background:url('../images/gradient-tile.png') repeat-x;
-    h1                      {float:left;
-      a                     {width:250px; height:85px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
-    }
-    .info                   {color:#A8B189; font-size:12px; position:absolute; top:0px; right:0px;}              
-    ul                      {padding:60px 0 30px; float:right; list-style:none;
-      li                    {padding:0 0 0 30px; float:left;
-        a                   {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:21px 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
-          &:hover           {color:#A2C429;}
-          &.active          {color:#A2C429; border-bottom:1px dashed;}
-        }
-      }
-    }
-    .banner                 {clear:both; padding:20px 20px 0; background:url('../images/box-tail.gif') repeat; -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;
-      #slides               {width:100%; height:412px; position:relative;
-        .slides_container   {width:956px; height:412px; overflow:hidden; position:relative; display:none;
-          .slide            {width:956px; height:412px; display:block;
-            .caption        {z-index:500; position:absolute; bottom:-35px; left:0; height:30px; padding:5px 20px 0 20px; background:#000; background:rgba(0,0,0,.5); width:100%; font-size:1.3em; line-height:1.33; color:#fff; border-top:1px solid #000; text-shadow:none;}
-          }
-        }
-        .next, .prev        {position:absolute; top:107px; left:-39px; width:24px; height:43px; display:block; z-index:101;}
-        .next               {left:585px;}
-        .pagination         {margin:0; padding:0; width:100px; position:absolute; top:15px; left:20px; z-index:9999;
-          li                {float:left; margin:0 1px; padding:0; list-style:none;
-            a               {display:block; width:12px; height:0; padding-top:12px; background-image:url(../images/pagination.png); background-position:0 0; float:left; overflow:hidden;}
-            &.current a     {background-position:0 -12px;}
-          }
-        }
-      }
-    }
-  }
-  .content                  {width:100%; background:url('../images/content-tail.gif') repeat;
-    .wrapper                {padding:10px 20px; width:956px; background:url('../images/box-tail.gif') repeat; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px;
-      .left                 {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:left;
-        &.small             {width:27%;
-          .firm-toggle      {
-            li              {padding:0 0 2px 24px; background:url(../images/marker-1.png) 1px 8px no-repeat;
-              span          {padding:3px 10px; width:auto; display:block; cursor:pointer;}
-              &.active      {
-                span        {background:#353535; color:#99a721;}
-                ul          {display:block;
-                  li        {margin:0; padding:3px 10px; font-size:14px; background:#d3c4ad; border-bottom:1px dashed #353535;
-                    &.last  {border:none;}
+body                            {background:#25241B; font-family:'Abel', arial, sans;
+  a                             {color:#8BA729;}
+  .clear-left                   {clear:left;}
+  .wrapper                      {margin:0 auto; width:996px; overflow:hidden; position:relative;}
+  header                        {padding:50px 0 0; width:100%; background:url('../images/gradient-tile.png') repeat-x;
+    h1                          {float:left;
+      a                         {width:250px; height:85px; display:block; text-indent:-100%; font-size:0px; line-height:0px; background:url('../images/logo.png');}
+    }   
+    .info                       {color:#A8B189; font-size:12px; position:absolute; top:0px; right:0px;}              
+    ul                          {padding:60px 0 30px; float:right; list-style:none;
+      li                        {padding:0 0 0 30px; float:left;
+        a                       {color:#FFFFFF; text-transform:uppercase; text-decoration:none; font:21px 'Forum', serif; letter-spacing:2px; text-shadow: 1px 1px 0px #616051; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
+          &:hover               {color:#A2C429;}
+          &.active              {color:#A2C429; border-bottom:1px dashed;}
+        }   
+      }   
+    }   
+    .banner                     {clear:both; padding:20px 20px 0; background:url('../images/box-tail.gif') repeat; -moz-border-radius:15px 15px 0 0; border-radius:15px 15px 0 0;
+      #slides                   {width:100%; height:412px; position:relative;
+        .slides_container       {width:956px; height:412px; overflow:hidden; position:relative; display:none;
+          .slide                {width:956px; height:412px; display:block;
+            .caption            {z-index:500; position:absolute; bottom:-35px; left:0; height:30px; padding:5px 20px 0 20px; background:#000; background:rgba(0,0,0,.5); width:100%; font-size:1.3em; line-height:1.33; color:#fff; border-top:1px solid #000; text-shadow:none;}
+          }   
+        }   
+        .next, .prev            {position:absolute; top:107px; left:-39px; width:24px; height:43px; display:block; z-index:101;}
+        .next                   {left:585px;}
+        .pagination             {margin:0; padding:0; width:100px; position:absolute; top:15px; left:20px; z-index:9999;
+          li                    {float:left; margin:0 1px; padding:0; list-style:none;
+            a                   {display:block; width:12px; height:0; padding-top:12px; background-image:url(../images/pagination.png); background-position:0 0; float:left; overflow:hidden;}
+            &.current a         {background-position:0 -12px;}
+          }   
+        }   
+      }   
+    }   
+  }   
+  .content                      {width:100%; background:url('../images/content-tail.gif') repeat;
+    .wrapper                    {padding:10px 20px; width:956px; background:url('../images/box-tail.gif') repeat; -moz-border-radius:0 0 15px 15px; border-radius:0 0 15px 15px;
+      .left                     {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:left;
+        &.small                 {width:27%;
+          .firm-toggle          {
+            li                  {padding:0 0 2px 24px; background:url(../images/marker-1.png) 1px 8px no-repeat;
+              span              {padding:3px 10px; width:auto; display:block; cursor:pointer;}
+              &.active          {
+                span            {background:#353535; color:#99a721;}
+                div             {display:block;
+                  span          {padding:3px 10px 3px 20px; color:#000; font-size:13px; font-style:italic; background:transparent; border-bottom:1px dashed #353535; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+                    &:hover     {color:#FFF; background:#656565;}
+                    &.active    {color:#FFF; background:#656565;}
+                    &.last      {border:none;}
                   }
                 }
               }
-              ul            {margin:0; padding:0; display:none;}
+              div               {display:none; background:#94927e;}
+            }   
+          }   
+        }   
+      }   
+      .right                    {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:right;
+        &.big                   {width:66%;
+          ul                    {float:left; padding:0 20px 0 0;}
+          section               {display:none;
+            &.active            {display:block;}
+            a                   {color:#8BA729; text-decoration:none;
+              &:hover           {text-decoration:underline;}
+            }   
+          }   
+          .profile              {
+            img                 {margin:0 20px 10px 0; float:left;}
+            ul                  {padding:0; float:none;
+              li                {background:none; padding:0 0 8px; color:#5F0017;
+                span            {display:inline-block; width:60px; color:#000000; text-transform:uppercase;}
+              }   
+            }   
+            p                   {clear:both;}
+          }   
+        }   
+      }   
+      .full-col                 {padding:20px 0 20px 20px; width:auto; border-top:2px solid #333225; overflow:hidden;
+        ul                      {float:left; padding:0 20px 0 0; width:22.8%;}
+        .profile                {float:left; padding:0 35px 35px 0; width:29.5%;
+          h4                    {margin:0 0 10px; padding:0 0 5px; text-transform:uppercase; font:16px 'Forum', serif; letter-spacing:2px; border-bottom:1px dashed;}
+          img                   {margin:0 0 10px;}
+          .address              {padding:0 0 10px; color:#5F0017; font-size:14px;}
+          a                     {padding:0 10px; display:inline-block; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+            &:hover             {background:#8BA729;}
+          }   
+          .info                 {float:none; padding:0 0 30px; width:100%;
+            li                  {padding:0; background:none; color:#5F0017; font-size:14px;
+              span              {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
             }
           }
-        }
-      }
-      .right                {padding:20px 0 20px 20px; width:45%; border-top:2px solid #333225; float:right;
-        &.big               {width:66%;
-          ul                {float:left; padding:0 20px 0 0;}
-          section           {display:none;
-            &.active        {display:block;}
-            a               {color:#8BA729; text-decoration:none;
-              &:hover       {text-decoration:underline;}
-            }
+          .stevan               {margin:20px auto; width:200px; height:200px; background:url('../images/stevan-h-thompson-attorney-at-law02.jpg') no-repeat;
+            img                 {display:none;}
           }
-          .profile          {
-            img             {margin:0 20px 10px 0; float:left;}
-            ul              {padding:0; float:none;
-              li            {background:none; padding:0 0 8px; color:#5F0017;
-                span        {display:inline-block; width:60px; color:#000000; text-transform:uppercase;}
-              }
-            }
-            p               {clear:both;}
+          .curtis               {margin:20px auto; width:200px; height:200px; background:url('../images/curtis-r-smith-attorney-at-law02.jpg') no-repeat;
+            img                 {display:none;}
           }
-        }
-      }
-      .full-col             {padding:20px 0 20px 20px; width:auto; border-top:2px solid #333225; overflow:hidden;
-        ul                  {float:left; padding:0 20px 0 0; width:22.8%;}
-        .profile            {float:left; padding:0 35px 35px 0; width:29.5%;
-          h4                {margin:0 0 10px; padding:0 0 5px; text-transform:uppercase; font:16px 'Forum', serif; letter-spacing:2px; border-bottom:1px dashed;}
-          img               {margin:0 0 10px;}
-          .address          {padding:0 0 10px; color:#5F0017; font-size:14px;}
-          a                 {padding:0 10px; display:inline-block; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
-            &:hover         {background:#8BA729;}
-          }
-          .info             {float:none; padding:0 0 30px; width:100%;
-            li              {padding:0; background:none; color:#5F0017; font-size:14px;
-              span          {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
-            }
-          }
-          .stevan               {margin:0 0 10px; width:120px; height:120px; background:url('../images/stevan-h-thompson-attorney-at-law02.png') no-repeat; -moz-transition-property:background; -moz-transition-duration:1000ms; -webkit-transition-property:background; -webkit-transition-duration:1000ms; -o-transition-property:background; -o-transition-duration:1000ms; transition-property:background; transition-duration:1000ms;
-            &:hover             {background:url('../images/stevan-h-thompson-attorney-at-law01.png') no-repeat;}
+          .aaron                {margin:20px auto; width:200px; height:200px; background:url('../images/aaron-j-woolf-attorney-at-law02.jpg') no-repeat;
+            img                 {display:none;}
           }
           form                  {position:relative; vertical-align:top; width:100%; z-index:1;
             fieldset            {border:none; width:100%; overflow:hidden;
@@ -106,59 +114,59 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
                 label.error     {color:red; font-size:11px; line-height:1.27em; display:inline-block; overflow:hidden; margin-bottom:5px;}
               }
             }
-            input.submit    {cursor:pointer; padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; font-family:'Abel', arial, sans; border:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
-              &:hover       {background:#8BA729;}
-            }
-            .link           {cursor:pointer; padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
-              &:hover       {background:#8BA729;}
-            }
-          }
-        }
-      }
-      p                     {padding:0 0 20px;}
-      h2                    {padding:0 0 20px; color:#333225; text-transform:uppercase; font:26px 'Forum', serif; letter-spacing:2px;}
-      ul                    {list-style:none;
-        li                  {padding:0 0 8px 24px; line-height:1.3em; background:url(../images/marker-1.png) 1px 5px no-repeat;
-          a                 {font-size:16px; color:#333225; text-decoration:none; display:block; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
-            &:hover         {color:#99a721;}
-          }
-        }
-      }
-    }
-  }
-  .outer                    {width:100%; background:url('../images/content-tail.gif') repeat;
-    .wrapper                {padding:30px 0; width:916px;
-      .col                  {padding:0 19px 0 0; width:22.9%; float:left;
-        h3                  {padding:0 0 10px; color:#fff; text-transform:uppercase; font:21px 'Forum', serif; letter-spacing:2px;}
-        p                   {padding:0 0 5px; color:#A8B189; font-size:13px;}
-        a                   {color:#fff; font-size:18px; font-style:italic; text-decoration:none; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
-          &:hover           {color:#A2C429;}
-        }
-      }
-    }
-  }
-  footer                    {padding:0; width:100%;
-    .wrapper                {padding:35px 0; width:916px;
-      .twitter              {margin:0 0 20px; width:32px; height:32px; display:block; float:left; background:url('../images/social.png') -0px -33px;
-        &:hover             {background-position:-33px -33px;}
-      }
-      .facebook             {margin:0 20px 20px 0; width:32px; height:32px; display:block; float:left; background:url('../images/social.png') -0px -0px;
-        &:hover             {background-position:-33px 0;}
-      }
-      ol                    {margin:0; width:18%; color:#A8B189; float:right;
-        li                  {list-style:none;
-          span              {color:#575648; font:17px 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
-        }
-      }
-      ul                    {padding:0 0 20px; float:left; list-style:none;
-        li                  {padding:0 10px; float:left; border-left:1px solid #575648;
-          &.first           {padding-left:0; border:none;}
-          a                 {color:#8BA729; font-size:13px; text-decoration:none; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
-            &:hover         {color:#575648;}
-          }
-        }
-      }
-      p                     {color:#575648; font-size:13px; float:left; clear:left;}
+            input.submit        {cursor:pointer; padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; font-family:'Abel', arial, sans; border:none; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+              &:hover           {background:#8BA729;}
+            }   
+            .link               {cursor:pointer; padding:0 10px; display:inline-block; height:25px; color:#fff; font-size:12px; line-height:25px; text-decoration:none; background:#575648; -moz-border-radius:5px; border-radius:5px; -moz-transition-property:background; -moz-transition-duration:400ms; -webkit-transition-property:background; -webkit-transition-duration:400ms; -o-transition-property:background; -o-transition-duration:400ms; transition-property:background; transition-duration:400ms;
+              &:hover           {background:#8BA729;}
+            }   
+          }   
+        }   
+      }   
+      p                         {padding:0 0 20px;}
+      h2                        {padding:0 0 20px; color:#333225; text-transform:uppercase; font:26px 'Forum', serif; letter-spacing:2px;}
+      ul                        {list-style:none;
+        li                      {padding:0 0 8px 24px; line-height:1.3em; background:url(../images/marker-1.png) 1px 5px no-repeat;
+          a                     {font-size:16px; color:#333225; text-decoration:none; display:block; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
+            &:hover             {color:#99a721;}
+          }   
+        }   
+      }   
+    }   
+  }   
+  .outer                        {width:100%; background:url('../images/content-tail.gif') repeat;
+    .wrapper                    {padding:30px 0; width:916px;
+      .col                      {padding:0 19px 0 0; width:22.9%; float:left;
+        h3                      {padding:0 0 10px; color:#fff; text-transform:uppercase; font:21px 'Forum', serif; letter-spacing:2px;}
+        p                       {padding:0 0 5px; color:#A8B189; font-size:13px;}
+        a                       {color:#fff; font-size:18px; font-style:italic; text-decoration:none; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
+          &:hover               {color:#A2C429;}
+        }   
+      }   
+    }   
+  }   
+  footer                        {padding:0; width:100%;
+    .wrapper                    {padding:35px 0; width:916px;
+      .twitter                  {margin:0 0 20px; width:32px; height:32px; display:block; float:left; background:url('../images/social.png') -0px -33px;
+        &:hover                 {background-position:-33px -33px;}
+      }   
+      .facebook                 {margin:0 20px 20px 0; width:32px; height:32px; display:block; float:left; background:url('../images/social.png') -0px -0px;
+        &:hover                 {background-position:-33px 0;}
+      }   
+      ol                        {margin:0; width:18%; color:#A8B189; float:right;
+        li                      {list-style:none;
+          span                  {color:#575648; font:17px 'Forum', serif; letter-spacing:2px; text-transform:uppercase;}
+        }   
+      }   
+      ul                        {padding:0 0 20px; float:left; list-style:none;
+        li                      {padding:0 10px; float:left; border-left:1px solid #575648;
+          &.first               {padding-left:0; border:none;}
+          a                     {color:#8BA729; font-size:13px; text-decoration:none; -moz-transition-property:color; -moz-transition-duration:400ms; -webkit-transition-property:color; -webkit-transition-duration:400ms; -o-transition-property:color; -o-transition-duration:400ms; transition-property:color; transition-duration:400ms;
+            &:hover             {color:#575648;}
+          }   
+        }   
+      }   
+      p                         {color:#575648; font-size:13px; float:left; clear:left;}
     }
   }
 }
