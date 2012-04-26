@@ -56,7 +56,7 @@ if(isset($_SESSION['message'])) {
             <li><span>Email</span>tswa@eastidaholaw.net</li>
           </ul>
           <h4>Driggs</h4>
-          <p class="address">81 N Main St Unit B<br />Driggs, ID 83422<br />PO Box 65</p>
+          <p class="address">81 N Main St Unit B<br />PO Box 65<br />Driggs, ID 83422</p>
           <ul class="info">
             <li><span>Phone</span>208-354-0110</li>
             <li><span>Fax</span>208-354-0115</li>
