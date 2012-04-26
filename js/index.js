@@ -38,6 +38,12 @@ $(document).ready(function() {
     $(this).addClass("active");
     $(".right .firm").addClass("active");
   });
+  $(".firm-toggle .staff").click(function() {
+    $(".firm-toggle li").removeClass("active");
+    $(".right section").removeClass("active");
+    $(this).addClass("active");
+    $(".right .staff").addClass("active");
+  });
   $(".firm-toggle .history").click(function() {
     $(".firm-toggle li").removeClass("active");
     $(".right section").removeClass("active");

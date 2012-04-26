@@ -163,12 +163,26 @@ body {
             background: url(../images/marker-1.png) 1px 8px no-repeat; }
             body .content .wrapper .left.small .firm-toggle li span {
               padding: 3px 10px;
-              width: 161px;
+              width: auto;
               display: block;
               cursor: pointer; }
             body .content .wrapper .left.small .firm-toggle li.active span {
               background: #353535;
               color: #99a721; }
+            body .content .wrapper .left.small .firm-toggle li.active ul {
+              display: block; }
+              body .content .wrapper .left.small .firm-toggle li.active ul li {
+                margin: 0;
+                padding: 3px 10px;
+                font-size: 14px;
+                background: #d3c4ad;
+                border-bottom: 1px dashed #353535; }
+                body .content .wrapper .left.small .firm-toggle li.active ul li.last {
+                  border: none; }
+            body .content .wrapper .left.small .firm-toggle li ul {
+              margin: 0;
+              padding: 0;
+              display: none; }
       body .content .wrapper .right {
         padding: 20px 0 20px 20px;
         width: 45%;
@@ -265,6 +279,21 @@ body {
                 width: 60px;
                 color: #000;
                 text-transform: uppercase; }
+          body .content .wrapper .full-col .profile .stevan {
+            margin: 0 0 10px;
+            width: 120px;
+            height: 120px;
+            background: url("../images/stevan-h-thompson-attorney-at-law02.png") no-repeat;
+            -moz-transition-property: background;
+            -moz-transition-duration: 1000ms;
+            -webkit-transition-property: background;
+            -webkit-transition-duration: 1000ms;
+            -o-transition-property: background;
+            -o-transition-duration: 1000ms;
+            transition-property: background;
+            transition-duration: 1000ms; }
+            body .content .wrapper .full-col .profile .stevan:hover {
+              background: url("../images/stevan-h-thompson-attorney-at-law01.png") no-repeat; }
           body .content .wrapper .full-col .profile form {
             position: relative;
             vertical-align: top;

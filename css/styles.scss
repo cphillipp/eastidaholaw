@@ -45,10 +45,16 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
         &.small             {width:27%;
           .firm-toggle      {
             li              {padding:0 0 2px 24px; background:url(../images/marker-1.png) 1px 8px no-repeat;
-              span          {padding:3px 10px; width:161px; display:block; cursor:pointer;}
+              span          {padding:3px 10px; width:auto; display:block; cursor:pointer;}
               &.active      {
                 span        {background:#353535; color:#99a721;}
+                ul          {display:block;
+                  li        {margin:0; padding:3px 10px; font-size:14px; background:#d3c4ad; border-bottom:1px dashed #353535;
+                    &.last  {border:none;}
+                  }
+                }
               }
+              ul            {margin:0; padding:0; display:none;}
             }
           }
         }
@@ -86,6 +92,9 @@ body                        {background:#25241B; font-family:'Abel', arial, sans
             li              {padding:0; background:none; color:#5F0017; font-size:14px;
               span          {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
             }
+          }
+          .stevan               {margin:0 0 10px; width:120px; height:120px; background:url('../images/stevan-h-thompson-attorney-at-law02.png') no-repeat; -moz-transition-property:background; -moz-transition-duration:1000ms; -webkit-transition-property:background; -webkit-transition-duration:1000ms; -o-transition-property:background; -o-transition-duration:1000ms; transition-property:background; transition-duration:1000ms;
+            &:hover             {background:url('../images/stevan-h-thompson-attorney-at-law01.png') no-repeat;}
           }
           form                  {position:relative; vertical-align:top; width:100%; z-index:1;
             fieldset            {border:none; width:100%; overflow:hidden;
