@@ -225,10 +225,10 @@ body {
               body .content .wrapper .right.big section a:hover {
                 text-decoration: underline; }
           body .content .wrapper .right.big .profile img {
-            margin: 0 20px 10px 0;
-            float: left; }
+            margin: 0 0 10px 20px;
+            float: right; }
           body .content .wrapper .right.big .profile ul {
-            padding: 0;
+            padding: 0 0 20px;
             float: none; }
             body .content .wrapper .right.big .profile ul li {
               background: none;
@@ -239,8 +239,6 @@ body {
                 width: 60px;
                 color: #000000;
                 text-transform: uppercase; }
-          body .content .wrapper .right.big .profile p {
-            clear: both; }
       body .content .wrapper .full-col {
         padding: 20px 0 20px 20px;
         width: auto;
@@ -321,6 +319,27 @@ body {
             height: 200px;
             background: url("../images/aaron-j-woolf-attorney-at-law02.jpg") no-repeat; }
             body .content .wrapper .full-col .profile .aaron img {
+              display: none; }
+          body .content .wrapper .full-col .profile .marty {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/marty-r-anderson-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .marty img {
+              display: none; }
+          body .content .wrapper .full-col .profile .dennis {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/dennis-p-wilkinson-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .dennis img {
+              display: none; }
+          body .content .wrapper .full-col .profile .barton {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background: url("../images/barton-j-birch-attorney-at-law02.jpg") no-repeat; }
+            body .content .wrapper .full-col .profile .barton img {
               display: none; }
           body .content .wrapper .full-col .profile form {
             position: relative;

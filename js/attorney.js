@@ -21,4 +21,25 @@ $(document).ready(function() {
     $('.aaron img').fadeOut('slow');
   });
 
+  $('.marty').mouseover(function(){
+    $('.marty img').fadeIn('slow');
+  });
+  $('img').mouseout(function(){
+    $('.marty img').fadeOut('slow');
+  });
+
+  $('.dennis').mouseover(function(){
+    $('.dennis img').fadeIn('slow');
+  });
+  $('img').mouseout(function(){
+    $('.dennis img').fadeOut('slow');
+  });
+
+  $('.barton').mouseover(function(){
+    $('.barton img').fadeIn('slow');
+  });
+  $('img').mouseout(function(){
+    $('.barton img').fadeOut('slow');
+  });
+
 });

@@ -39,7 +39,7 @@ if(isset($_SESSION['message'])) {
         <li><a href="attorney-contact.php" title="Idaho Falls and Driggs Idaho Law Offices Contact Page" class="active">Contact</a></li>
       </ul>
       <section class="banner">
-        <img src="images/law-office-contact.png" alt="Idaho falls law firm upholds justice image" />
+        <img src="images/law-office-contact.jpg" alt="Idaho falls law firm upholds justice image" />
       </section>
     </div>
   </header>
