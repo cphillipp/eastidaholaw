@@ -94,23 +94,35 @@ body                            {background:#25241B; font-family:'Abel', arial, 
               span              {display:inline-block; width:60px; color:#000; text-transform:uppercase;}
             }
           }
-          .stevan               {margin:20px auto; width:200px; height:200px; background:url('../images/stevan-h-thompson-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.stevan              {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/stevan-h-thompson-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
-          .curtis               {margin:20px auto; width:200px; height:200px; background:url('../images/curtis-r-smith-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.curtis              {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/curtis-r-smith-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
-          .aaron                {margin:20px auto; width:200px; height:200px; background:url('../images/aaron-j-woolf-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.aaron               {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/aaron-j-woolf-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
-          .marty                {margin:20px auto; width:200px; height:200px; background:url('../images/marty-r-anderson-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.marty               {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/marty-r-anderson-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
-          .dennis               {margin:20px auto; width:200px; height:200px; background:url('../images/dennis-p-wilkinson-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.dennis              {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/dennis-p-wilkinson-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
-          .barton               {margin:20px auto; width:200px; height:200px; background:url('../images/barton-j-birch-attorney-at-law02.jpg') no-repeat;
-            img                 {display:none;}
+          &.barton              {
+            .pic                {margin:20px auto; width:200px; height:200px; background:url('../images/barton-j-birch-attorney-at-law02.jpg') no-repeat;
+              img               {display:none;}
+            }
           }
           form                  {position:relative; vertical-align:top; width:100%; z-index:1;
             fieldset            {border:none; width:100%; overflow:hidden;

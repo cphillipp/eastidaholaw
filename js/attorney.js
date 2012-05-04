@@ -1,44 +1,44 @@
 $(document).ready(function() {
 
-  $('.stevan').mouseover(function(){
+  $('.stevan').mouseenter(function(){
     $('.stevan img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.stevan').mouseleave(function(){
     $('.stevan img').fadeOut('slow');
   });
 
-  $('.curtis').mouseover(function(){
+  $('.curtis').mouseenter(function(){
     $('.curtis img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.curtis').mouseleave(function(){
     $('.curtis img').fadeOut('slow');
   });
 
-  $('.aaron').mouseover(function(){
+  $('.aaron').mouseenter(function(){
     $('.aaron img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.aaron').mouseleave(function(){
     $('.aaron img').fadeOut('slow');
   });
 
-  $('.marty').mouseover(function(){
+  $('.marty').mouseenter(function(){
     $('.marty img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.marty').mouseleave(function(){
     $('.marty img').fadeOut('slow');
   });
 
-  $('.dennis').mouseover(function(){
+  $('.dennis').mouseenter(function(){
     $('.dennis img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.dennis').mouseleave(function(){
     $('.dennis img').fadeOut('slow');
   });
 
-  $('.barton').mouseover(function(){
+  $('.barton').mouseenter(function(){
     $('.barton img').fadeIn('slow');
   });
-  $('img').mouseout(function(){
+  $('.barton').mouseleave(function(){
     $('.barton img').fadeOut('slow');
   });
 

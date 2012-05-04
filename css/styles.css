@@ -299,47 +299,47 @@ body {
                 width: 60px;
                 color: #000;
                 text-transform: uppercase; }
-          body .content .wrapper .full-col .profile .stevan {
+          body .content .wrapper .full-col .profile.stevan .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/stevan-h-thompson-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .stevan img {
+            body .content .wrapper .full-col .profile.stevan .pic img {
               display: none; }
-          body .content .wrapper .full-col .profile .curtis {
+          body .content .wrapper .full-col .profile.curtis .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/curtis-r-smith-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .curtis img {
+            body .content .wrapper .full-col .profile.curtis .pic img {
               display: none; }
-          body .content .wrapper .full-col .profile .aaron {
+          body .content .wrapper .full-col .profile.aaron .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/aaron-j-woolf-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .aaron img {
+            body .content .wrapper .full-col .profile.aaron .pic img {
               display: none; }
-          body .content .wrapper .full-col .profile .marty {
+          body .content .wrapper .full-col .profile.marty .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/marty-r-anderson-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .marty img {
+            body .content .wrapper .full-col .profile.marty .pic img {
               display: none; }
-          body .content .wrapper .full-col .profile .dennis {
+          body .content .wrapper .full-col .profile.dennis .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/dennis-p-wilkinson-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .dennis img {
+            body .content .wrapper .full-col .profile.dennis .pic img {
               display: none; }
-          body .content .wrapper .full-col .profile .barton {
+          body .content .wrapper .full-col .profile.barton .pic {
             margin: 20px auto;
             width: 200px;
             height: 200px;
             background: url("../images/barton-j-birch-attorney-at-law02.jpg") no-repeat; }
-            body .content .wrapper .full-col .profile .barton img {
+            body .content .wrapper .full-col .profile.barton .pic img {
               display: none; }
           body .content .wrapper .full-col .profile form {
             position: relative;
