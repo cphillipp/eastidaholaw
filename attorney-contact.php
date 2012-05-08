@@ -49,7 +49,7 @@ if(isset($_SESSION['message'])) {
         <div class="profile">
           <h2>Address</h2>
           <h4>Idaho Falls</h4>
-          <p class="address">3480 Merlin Drive<br /> Idaho Falls, ID 83404</p>
+          <p class="address">3480 Merlin Drive<br />PO Box 50160<br /> Idaho Falls, ID 83404</p>
           <ul class="info">
             <li><span>Phone</span>208-525-8792</li>
             <li><span>Fax</span>208-525-5266</li>
@@ -133,14 +133,15 @@ if(isset($_SESSION['message'])) {
         <li><span>Idaho Falls:</span></li>
         <li>208.525.8792</li>
         <li>3480 Merlin Drive</li>
+        <li>PO Box 50160</li>
         <li>Idaho Falls, ID 83404</li>
       </ol>
       <ol>
         <li><span>Driggs:</span></li>
         <li>208.354.0110</li>
         <li>81 N Main St Unit B</li>
-        <li>Driggs, ID 83422</li>
         <li>PO Box 65</li>
+        <li>Driggs, ID 83422</li>
       </ol>
       <div class="clear-left"></div>
       <a href="#" class="facebook" target="_blank" title="Law Offices Facebook Page"></a>
