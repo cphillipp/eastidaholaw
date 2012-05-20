@@ -239,6 +239,11 @@ body {
                 width: 60px;
                 color: #000000;
                 text-transform: uppercase; }
+        body .content .wrapper .right.list {
+          width: 66%; }
+          body .content .wrapper .right.list ul {
+            float: left;
+            padding: 0 45px 0 0; }
       body .content .wrapper .full-col {
         padding: 20px 0 20px 20px;
         width: auto;
@@ -248,6 +253,22 @@ body {
           float: left;
           padding: 0 20px 0 0;
           width: 22.8%; }
+          body .content .wrapper .full-col ul li {
+            margin: 0;
+            padding: 0 0 15px;
+            background: none; }
+            body .content .wrapper .full-col ul li span {
+              display: inline-block;
+              font-size: 22px; }
+            body .content .wrapper .full-col ul li ul {
+              margin: 0;
+              padding: 0;
+              width: 100%;
+              float: none; }
+              body .content .wrapper .full-col ul li ul li {
+                margin: 0 0 0 15px;
+                padding: 2px 0 2px 24px;
+                background: url(../images/marker-1.png) 1px 8px no-repeat; }
         body .content .wrapper .full-col .profile {
           float: left;
           padding: 0 35px 35px 0;

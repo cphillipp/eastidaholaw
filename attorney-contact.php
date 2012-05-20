@@ -100,22 +100,18 @@ if(isset($_SESSION['message'])) {
       <div class="col">
         <h3>Who We Are</h3>
         <p>TSWA regularly handles many of the largest, most complex and demanding transactions in the Idaho Falls and Driggs area. We counsel both public and private acquirors and targets, advising on a wide range of corporate matters.</p>
-        <a href="#">Read More</a>
       </div>
       <div class="col">
         <h3>Experience</h3>
         <p>Each of our practice areas is highly regarded, and our lawyers are recognized around the south east area for their commitment to the representation of our clients' interests.</p>
-        <a href="#">Read More</a>
       </div>
       <div class="col">
         <h3>Overview</h3>
         <p>Throughout our history, we have played a central role in developing how law is practiced, how lawyers are trained and how business risk is managed.</p>
-        <a href="#">Read More</a>
       </div>
       <div class="col">
         <h3>Consultations</h3>
         <p>TSWA approaches its clients' legal issues always within the larger framework of their strategic, business and financial goals. Please call for a free initial consultation.</p>
-        <a href="#">Read More</a>
       </div>
     </div>
   </section>
