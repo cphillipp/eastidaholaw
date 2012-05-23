@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $to = "clayphillipp@gmail.com";
+    $to = "tswa@eastidaholaw.net";
     $subject = "Contact Us";
     $name = $_POST['name'];
     $email = $_POST['email'];

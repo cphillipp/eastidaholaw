@@ -124,7 +124,6 @@ if(isset($_SESSION['message'])) {
         <li><a href="law-firm-attorneys.html" title="Idaho Falls and Driggs Idaho Law Offices List of Attorneys">Attorneys</a></li>
         <li><a href="idaho-law-firm.html" title="Idaho Falls and Driggs Idaho Law Offices Firm Details">The Firm</a></li>
         <li><a href="attorney-contact.php" title="Idaho Falls and Driggs Idaho Law Offices Contact Page">Contact</a></li>
-        <li><a href="#">Site Map</a></li>
       </ul>
       <ol>
         <li><span>Idaho Falls:</span></li>

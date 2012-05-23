@@ -404,6 +404,7 @@ body {
                 body .content .wrapper .full-col .profile form fieldset .box textarea.error {
                   margin: 0 0 -5px; }
                 body .content .wrapper .full-col .profile form fieldset .box label.error {
+                  padding: 5px 0 0;
                   color: red;
                   font-size: 11px;
                   line-height: 1.27em;
