@@ -69,23 +69,11 @@ $(document).ready(function() {
     $(this).addClass("active");
     $(".right .credo").addClass("active");
   });
-  $(".firm-toggle .diversity").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .diversity").addClass("active");
-  });
   $(".firm-toggle .community").click(function() {
     $(".firm-toggle li").removeClass("active");
     $(".right section").removeClass("active");
     $(this).addClass("active");
     $(".right .community").addClass("active");
-  });
-  $(".firm-toggle .recognition").click(function() {
-    $(".firm-toggle li").removeClass("active");
-    $(".right section").removeClass("active");
-    $(this).addClass("active");
-    $(".right .recognition").addClass("active");
   });
 
 });
